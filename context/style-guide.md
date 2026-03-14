@@ -1,419 +1,365 @@
-# Castos Style Guide
+# PrivAlert - Guide de style
 
-This guide defines writing conventions, formatting standards, and editorial guidelines for all Castos content.
-
-## Instructions
-Fill in this template with Castos-specific style preferences. Update as the style guide evolves.
+Ce guide definit les conventions d'ecriture, les standards de mise en forme et les regles editoriales pour tout contenu PrivAlert.
 
 ---
 
-## Grammar & Mechanics
+## Langue
 
-### Capitalization
-
-**Headlines & Subheadings**:
-- [ ] Title Case (Capitalize Major Words)
-- [ ] Sentence case (Only capitalize first word)
-- **Decision**: [Choose one and document here]
-
-**Product Names**:
-- Castos: [Always capitalized]
-- Seriously Simple Podcasting: [Capitalization style]
-- [Other Castos products]: [Style]
-
-**Industry Terms**:
-- podcast / Podcast: [Choose one]
-- podcaster / Podcaster: [Choose one]
-- RSS / rss: [RSS (always caps)]
-- [Add other common terms]
-
-### Numbers
-
-**When to Spell Out**:
-- Spell out: One through nine
-- Use numerals: 10 and above
-- Exceptions:
-  - Percentages: Always use numerals (5%, 50%)
-  - Money: Always use numerals ($5, $500)
-  - Measurements: Always use numerals (5 GB, 50 MB)
-  - Lists/stats: Always use numerals for scannability
-
-**Large Numbers**:
-- 1,000+ (use comma)
-- 1 million (spell out million, billion, etc.)
-- $5,000 or $5K? [Choose convention]
-
-### Punctuation
-
-**Oxford Comma**:
-- [ ] Yes (A, B, and C)
-- [ ] No (A, B and C)
-- **Decision**: [Choose and document]
-
-**Em Dashes**:
-- Style: — (em dash, no spaces) or - - (hyphens with spaces)
-- Usage: For parenthetical statements or emphasis
-- Example: "Podcast analytics—when used correctly—drive better content decisions."
-
-**Quotation Marks**:
-- "Straight quotes" or "Curly quotes"?
-- **Decision**: [Choose one]
-
-**Ellipses**:
-- Three dots: ...
-- Spacing: no spaces before or after
-- Use sparingly: Primarily for omitted text in quotes
-
-### Abbreviations & Acronyms
-
-**First Use**:
-- Spell out on first use, acronym in parentheses
-- Example: "Really Simple Syndication (RSS) feeds distribute..."
-- Exceptions for universally known: SEO, URL, CTA
-
-**Common Podcasting Acronyms**:
-- RSS: Really Simple Syndication
-- DAI: Dynamic Ad Insertion
-- SEO: Search Engine Optimization
-- IAB: Interactive Advertising Bureau
-- [Add others as needed]
-
-**Latin Abbreviations**:
-- e.g. (for example): [Use or avoid?]
-- i.e. (that is): [Use or avoid?]
-- etc. (and so forth): [Use or avoid?]
-- **Decision**: [Generally avoid in favor of plain English]
+Tous les contenus sont rediges exclusivement en **francais**. Aucun article, meta description ou titre ne doit etre en anglais sauf citation directe d'un nom de marque ou de plateforme (Veepee, Showroomprive, The Bradery, etc.).
 
 ---
 
-## Word Choice & Usage
+## Grammaire et mecanique
 
-### Preferred Terms
+### Tutoiement obligatoire
 
-**Say This** → **Not That**:
-- podcast creators → podcasters
-- podcast hosting → podcast storage
-- listeners → subscribers
-- audio quality → sound quality
-- show notes → episode notes / shownotes
-- podcast episode → podcast show (episode is unit, show is series)
-- analytics → stats
-- monetize → monetise (US spelling)
-- [Add Castos-specific preferences]
+Le tutoiement est la regle absolue pour tout contenu PrivAlert :
+- "Tu vas decouvrir..." et jamais "Vous allez decouvrir..."
+- "Suis tes marques preferees" et jamais "Suivez vos marques preferees"
+- Seule exception : les mentions legales et la politique de confidentialite (vouvoiement juridique)
 
-### Words to Avoid
-- Avoid jargon without explanation
-- Avoid "very", "really", "actually" (usually unnecessary)
-- Avoid passive constructions when active is clearer
-- Avoid "click here" or "read more" (use descriptive links)
-- [Add other words/phrases to avoid]
+### Majuscules
 
-### Inclusive Language
-- Use gender-neutral language ("they" instead of "he/she")
-- "Podcast creator" or "podcaster" instead of gendered terms
-- Avoid idioms that may not translate globally
-- Be mindful of accessibility in descriptions
+**Titres et sous-titres** :
+- Sentence case (majuscule uniquement au premier mot et aux noms propres)
+- "Guide complet des ventes privees en France" et non "Guide Complet Des Ventes Privees En France"
+
+**Noms de plateformes** (toujours respecter la graphie officielle) :
+- Veepee (pas VeePee, pas VEEPEE)
+- Showroomprive (pas ShowroomPrive, pas Showroom Prive)
+- Zalando Prive (avec accent)
+- Bazarchic
+- The Bradery
+- Private Sport Shop
+
+**Noms de marques** : Respecter la graphie officielle (Nike, Adidas, Lacoste, Levi's, The North Face, etc.)
+
+**PrivAlert** : Toujours avec le P et le A majuscules. Jamais "Privalert", "PRIVALERT" ou "privalert".
+
+### Accents
+
+Les accents sont **obligatoires** en toute circonstance, y compris dans les titres et les majuscules :
+- e, e, e (precis, tres, fete)
+- a (a, deja)
+- u (ou)
+- c (ca, francais, recu)
+- i, u (noel, ambigue) quand necessaire
+
+Meme en debut de phrase : "A decouvrir cette semaine..." et non "A decouvrir cette semaine..."
+
+### Typographie francaise
+
+Respecter les regles typographiques francaises avec **espaces insecables** avant les signes de ponctuation doubles :
+- Espace insecable avant `:` (deux-points)
+- Espace insecable avant `;` (point-virgule)
+- Espace insecable avant `!` (point d'exclamation)
+- Espace insecable avant `?` (point d'interrogation)
+- Pas d'espace avant `.` et `,`
+
+Guillemets francais : utiliser les guillemets francais dans le corps du texte.
+- "Toutes les ventes privees au meme endroit"
+
+### Nombres
+
+**Quand ecrire en lettres** :
+- De un a neuf dans le texte courant
+- En debut de phrase, toujours en lettres
+
+**Quand utiliser les chiffres** :
+- A partir de 10
+- Pourcentages : -50 %, -30 % (avec espace insecable avant %)
+- Prix : 59,90 EUR, 120 EUR (virgule decimale, symbole EUR apres)
+- Statistiques et listes pour la lisibilite
+
+**Separateur des milliers** : espace insecable
+- 1 000, 10 000, 500 000
+- Jamais de point comme separateur : pas 1.000
+
+**Prix et euros** :
+- Symbole EUR apres le nombre : 49,90 EUR
+- Virgule pour les decimales : 5,50 EUR (pas 5.50 EUR)
+- Tiret pour les reductions : de 150 EUR a 60 EUR ou 150 EUR -> 60 EUR
+
+### Ponctuation
+
+**Virgule de serie (Oxford comma)** : Non utilisee en francais
+- "Veepee, Showroomprive et Zalando Prive" (pas de virgule avant "et")
+
+**Tiret cadratin** :
+- Utiliser -- (tiret cadratin) pour les incises
+- "Les ventes privees -- contrairement aux soldes -- ont lieu toute l'annee."
+
+**Points de suspension** :
+- Trois points : ...
+- Pas d'espace avant, espace apres
+- Utiliser avec parcimonie
+
+### Dates et heures
+
+**Format de date** : jour mois annee, en lettres pour le mois
+- 14 mars 2026
+- 1er janvier 2026 (avec "er" en exposant pour le premier du mois)
+- Jamais : 14/03/2026 dans le texte (acceptable dans les tableaux)
+
+**Format d'heure** :
+- Format 24h : 7h00, 14h30, 20h00
+- Pas de format 12h (pas de AM/PM)
+
+### Abreviations
+
+**Premiere utilisation** : Ecrire en entier puis acronyme entre parentheses si necessaire
+- "Private Sport Shop (PSS)" a la premiere mention, puis "PSS" ensuite
+
+**Abreviations courantes acceptees** :
+- etc.
+- ex. (pour "exemple")
+- vs (pour "versus", sans point)
+
+**Eviter** :
+- c-a-d (ecrire "c'est-a-dire")
+- bcp, tj, etc. (abreviations SMS)
 
 ---
 
-## Formatting Standards
+## Choix de mots et terminologie
 
-### Text Formatting
+### Termes privilegies
 
-**Bold**:
-- Use for: Key concepts, important takeaways, emphasis
-- Don't overuse: If everything is bold, nothing stands out
-- Example: "**Keyword density** should be 1-2% for optimal results."
+| Dire | Ne pas dire | Raison |
+|------|-------------|--------|
+| vente privee | private sale, flash sale | Public francais, terme reconnu |
+| bon plan | deal, good deal | Naturel en francais |
+| marque | brand | Francais |
+| reduction | discount | Francais |
+| plateforme / site | marketplace | Plus clair en francais |
+| agreger / centraliser | compiler, merger | Plus precis pour notre usage |
+| alerte | alert, notification | Sauf contexte technique |
+| chasseur de bons plans | deal hunter | Plus naturel |
+| pouvoir d'achat | purchasing power | Expression francaise courante |
+| panier moyen | average basket | Francais |
+| gratuit | free | Francais |
+| en ligne | online | Francais |
 
-**Italics**:
-- Use for: Emphasis (sparingly), titles of works, foreign phrases
-- Example: "The term *podcast* combines 'iPod' and 'broadcast'."
+### Termes du secteur
 
-**Underline**:
-- Generally avoid (reserve for links)
+- **Vente privee** : Vente a duree limitee (2 a 5 jours) reservee aux membres d'une plateforme, avec des reductions importantes sur des marques
+- **Vente flash** : Vente tres courte (quelques heures), a distinguer de la vente privee classique
+- **Destockage** : Vente de surplus de stock, souvent avec de plus grosses reductions
+- **Soldes** : Periodes legales de soldes (hiver et ete), a ne pas confondre avec les ventes privees
+- **Black Friday** : Evenement commercial de fin novembre, distinct des ventes privees mais souvent combine
 
-**ALL CAPS**:
-- Avoid except for standard acronyms (RSS, SEO, URL)
+### Mots a eviter
 
-### Lists
+- "Innovant", "revolutionnaire", "disruptif" (jargon startup vide de sens)
+- "Solution" utilise seul (trop vague)
+- "Cliquez ici" (pas de tutoiement + non descriptif)
+- "N'hesitez pas" (pas de tutoiement + mou)
+- "Nous sommes ravis" (ton corporate)
+- Anglicismes inutiles quand un equivalent francais existe
 
-**Bulleted Lists**:
-- Use for: Non-sequential items, features, benefits
-- Capitalization: [Sentence case or Title Case?]
-- Punctuation: [Period at end of each item or no punctuation?]
-- **Decision**:
-  - Capitalize first word
-  - Period if complete sentence, no period if fragment
-  - Parallel structure (all sentences or all fragments)
+### Langage inclusif
 
-**Numbered Lists**:
-- Use for: Sequential steps, rankings, ordered priorities
-- Format: 1. 2. 3. (with period after number)
-- Same capitalization and punctuation rules as bullets
-
-**Nested Lists**:
-- Maximum 2 levels deep for readability
-- Use different markers for sub-items
-
-### Links
-
-**Anchor Text**:
-- Descriptive (tell reader where they're going)
-- Keyword-rich when possible
-- 2-5 words typically
-- ✅ "Learn more about podcast SEO"
-- ❌ "Click here"
-
-**Link Formatting**:
-- Color: [Default blue or Castos brand color?]
-- Underline: [Yes/No]
-- Open in new tab: [Only for external links]
-
-### Code & Technical Elements
-
-**Inline Code**:
-- Use backticks for: URLs, file names, code snippets
-- Example: "Your RSS feed URL is `https://feeds.castos.com/...`"
-
-**Code Blocks**:
-- Use for: Multi-line code, configuration examples
-- Include language identifier for syntax highlighting
-
-### Callout Boxes / Asides
-
-**When to Use**:
-- Important notes or warnings
-- Pro tips or expert insights
-- Key takeaways or summaries
-
-**Format**:
-- [Define how to format: blockquote, box, highlighted section?]
-- Example style to be determined
+- Utiliser l'ecriture inclusive avec parcimonie et lisibilite : privilegier les formulations neutres
+- "Les personnes qui achetent" plutot que "les acheteurs/acheteuses"
+- Acceptable : "les utilisateurs et utilisatrices" pour les mentions importantes
+- Eviter le point median dans le texte courant (nuit a la lisibilite et au SEO)
 
 ---
 
-## Content Structure
+## Standards de mise en forme
 
-### Article Introduction
-**Standard Structure** (150-250 words):
-1. **Hook** (1-2 sentences): Grab attention with question, statistic, or bold statement
-2. **Problem** (2-3 sentences): What challenge or question does this address?
-3. **Promise** (2-3 sentences): What will reader learn/achieve?
-4. **Credibility** (optional, 1-2 sentences): Why trust this source?
+### Mise en forme du texte
 
-**Keyword Placement**:
-- Must include primary keyword in first 100 words
-- Natural integration, not forced
+**Gras** :
+- Pour les concepts cles, les noms de plateformes a la premiere mention, les prix importants
+- Ne pas abuser : si tout est en gras, rien ne ressort
+- "La vente **Nike** sur **Veepee** affiche des reductions jusqu'a **-60 %**"
 
-### Section Length
-- **Minimum**: 150 words per section
-- **Maximum**: 500 words per section (break into subsections if longer)
-- **Ideal**: 250-350 words per main section
+**Italique** :
+- Pour l'emphase legere, les titres de ventes specifiques
+- Utiliser avec parcimonie
+
+**MAJUSCULES** :
+- Uniquement pour les acronymes reconnus (SEO, CTA)
+- Jamais pour l'emphase dans le texte
+
+### Listes
+
+**Listes a puces** :
+- Pour les elements non ordonnes (avantages, fonctionnalites)
+- Majuscule au premier mot de chaque element
+- Pas de point final si fragment, point si phrase complete
+- Structure parallele (tous fragments ou toutes phrases)
+
+**Listes numerotees** :
+- Pour les etapes sequentielles, les classements
+- Format : 1. 2. 3.
+- Memes regles de ponctuation que les listes a puces
+
+### Liens
+
+**Texte d'ancre** :
+- Descriptif et riche en mots-cles
+- 2 a 5 mots idealement
+- "decouvre le calendrier des ventes privees"
+- Jamais "clique ici" ou "en savoir plus" seul
+
+**Ouverture** :
+- Liens internes : meme onglet
+- Liens externes (vers les plateformes) : nouvel onglet
+
+---
+
+## Structure des contenus
+
+### Introduction d'article
+
+**Structure standard** (100 a 200 mots) :
+1. **Accroche** (1-2 phrases) : Question, statistique ou constat percutant
+2. **Probleme** (1-2 phrases) : Quel defi cet article adresse-t-il ?
+3. **Promesse** (1-2 phrases) : Ce que le lecteur va apprendre ou gagner
+4. **Mot-cle** : Integrer le mot-cle principal dans les 100 premiers mots
+
+### Sections
+
+- **Longueur minimum** : 150 mots par section
+- **Longueur maximum** : 400 mots (decouper en sous-sections au-dela)
+- **Longueur ideale** : 200 a 300 mots par section principale
+- **Sous-titres** : Tous les 250 a 350 mots
 
 ### Conclusion
-**Standard Structure** (150-250 words):
-1. **Recap** (3-5 bullet points or paragraph): Key takeaways
-2. **Action** (1-2 sentences): What should reader do next?
-3. **CTA** (1-2 sentences): Call-to-action (trial, resource, related content)
-4. **Forward-looking** (optional, 1 sentence): Encouraging final thought
+
+**Structure standard** (100 a 200 mots) :
+1. **Resume** (3 a 5 points cles)
+2. **Action** (1-2 phrases) : Que doit faire le lecteur maintenant ?
+3. **CTA** (1-2 phrases) : Oriente vers l'utilisation de PrivAlert
+4. **Ouverture** (optionnel, 1 phrase) : Lien vers un contenu complementaire
 
 ---
 
-## SEO-Specific Style
+## SEO et meta-donnees
 
-### Meta Titles
-- 50-60 characters including spaces
-- Include primary keyword
-- Include "| Castos" if space allows
-- No ending punctuation
+### Titres meta (title)
 
-### Meta Descriptions
-- 150-160 characters including spaces
-- Include primary keyword
-- Include call-to-action
-- End with complete thought
+- 50 a 60 caracteres espaces compris
+- Inclure le mot-cle principal
+- Inclure "| PrivAlert" si la place le permet
+- Pas de ponctuation finale
 
-### URL Slugs
-- Lowercase only
-- Hyphens between words
-- Include primary keyword
-- 3-5 words ideal
-- Format: `/blog/primary-keyword-phrase`
+### Meta descriptions
 
-### Alt Text
-- Describe what image shows
-- Include keyword naturally if relevant
-- 125 characters or less
-- No "image of" or "picture of" (implied)
+- 150 a 160 caracteres espaces compris
+- Inclure le mot-cle principal
+- Inclure un appel a l'action
+- Phrase complete, ne doit pas etre coupee
 
----
+### Slugs d'URL
 
-## Dates & Time
+- Minuscules uniquement
+- Tirets entre les mots
+- **Sans accents** : "ventes-privees" et non "ventes-privees"
+- 3 a 5 mots ideal
+- Pas de mots vides sauf si necessaire pour la comprehension
+- Format : `/blog/mot-cle-principal`
 
-**Date Format**:
-- Month DD, YYYY (January 15, 2025)
-- Or: DD Month YYYY (15 January 2025)
-- **Decision**: [Choose one]
+### Texte alternatif des images
 
-**Time**:
-- 12-hour format with a.m./p.m.: 3:00 p.m.
-- Or: 24-hour format: 15:00
-- **Decision**: [Choose one]
-
-**Time Zones**:
-- Specify when relevant: "3:00 p.m. EST"
-- Or use: "3:00 p.m. Eastern Time"
+- Decrire ce que l'image montre
+- Inclure un mot-cle naturellement si pertinent
+- 125 caracteres maximum
+- Pas de "image de" ou "photo de" (implicite)
 
 ---
 
-## Statistics & Data
+## Dates et heures
 
-### Citing Sources
-- Always cite statistics with sources
-- Format: "According to [Source], [statistic]."
-- Link to original source when possible
-- Include year of data: "In 2024, podcast listeners reached..."
+**Format de date dans les articles** :
+- 14 mars 2026
+- Jamais en chiffres dans le texte courant
+- Acceptable dans les tableaux et les listes : 14/03/2026
 
-### Presenting Numbers
-- Round large numbers for readability: "1.2 million" not "1,234,567"
-- Use % symbol: 15% (not "percent")
-- Use $ for money: $500 (not "dollars")
-- Include commas: 10,000 not 10000
+**Durees de ventes** :
+- "du 14 au 18 mars 2026" ou "du 14 au 18 mars"
+- "pendant 4 jours"
+- "jusqu'a dimanche 18 mars"
 
 ---
 
-## Images & Media
+## Statistiques et donnees
 
-### Image Captions
-- [ ] Required for all images
-- [ ] Optional, only when needed for context
-- **Decision**: [Choose one]
+### Citation des sources
 
-**Caption Style**:
-- Sentence case
-- End with period if complete sentence
-- Placement: Below image
+- Toujours citer la source d'une statistique
+- Format : "Selon [Source], [statistique]."
+- Lier vers la source originale quand c'est possible
+- Inclure l'annee : "En 2025, les ventes privees en ligne ont represente..."
 
-### Screenshots
-- Include relevant screenshots when helpful
-- Crop to show only relevant portion
-- Add arrows/highlights if needed to draw attention
-- Alt text should describe what's shown
+### Presentation des nombres
 
-### Charts & Graphs
-- Include data visualization when it helps understanding
-- Keep design simple and clean
-- Always provide context in surrounding text
-- Alt text should describe the key finding, not just "chart"
+- Arrondir les grands nombres : "plus de 500 marques" et non "517 marques"
+- Symbole % avec espace insecable : 15 %
+- Euro avec espace insecable : 500 EUR
+- Separateur de milliers : espace insecable (10 000)
 
 ---
 
-## Brand-Specific Guidelines
+## References aux plateformes
 
-### Castos Product References
+### Mentions des plateformes
 
-**Castos Platform**:
-- "Castos" (not "the Castos platform" unless needed for clarity)
-- "Castos analytics dashboard"
-- [Add other product-specific terms]
+Quand on cite les 6 plateformes, utiliser cet ordre standard :
+1. Veepee
+2. Showroomprive
+3. Zalando Prive
+4. Bazarchic
+5. The Bradery
+6. Private Sport Shop
 
-**Features**:
-- [List how to refer to specific features]
-- [Capitalization conventions for features]
+Il n'est pas necessaire de toutes les citer a chaque fois. Citer celles qui sont pertinentes pour le contexte.
 
-### Competitor References
-- [ ] Name competitors directly when relevant
-- [ ] Use generic terms ("other podcast hosts")
-- **Decision**: [Choose approach]
+### References aux concurrents (SEO, pas ventes privees)
 
-**If Naming Competitors**:
-- Be fair and factual
-- No disparaging language
-- Focus on differentiation, not criticism
+- On peut nommer directement les concurrents SEO (Dealabs, Ma-Reduc, iGraal, etc.)
+- Rester factuel et equitable
+- Pas de denigrement
+- Se concentrer sur ce qui differencie PrivAlert
 
 ---
 
-## Accessibility
+## Checklist avant publication
 
-### Screen Reader Friendly
-- Descriptive link text (not "click here")
-- Image alt text for all images
-- Proper heading hierarchy (H1→H2→H3, no skipping)
-- Descriptive link previews
+**Grammaire et mecanique** :
+- [ ] Orthographe verifiee (y compris accents)
+- [ ] Grammaire correcte
+- [ ] Tutoiement partout, aucun vouvoiement
+- [ ] Ponctuation francaise respectee (espaces insecables)
+- [ ] Nombres formates correctement (1 000, 5,50 EUR)
+- [ ] Dates au bon format (14 mars 2026)
 
-### Plain Language
-- Write at 8th-10th grade level
-- Define technical terms on first use
-- Use short sentences and paragraphs
-- Break complex ideas into digestible chunks
+**Style** :
+- [ ] Terminologie PrivAlert respectee (vente privee, bon plan, etc.)
+- [ ] Noms de plateformes bien orthographies
+- [ ] PrivAlert bien ecrit (P et A majuscules)
+- [ ] Mise en forme coherente (gras, listes)
+- [ ] Liens descriptifs
 
----
+**Structure** :
+- [ ] Introduction accrocheuse avec mot-cle
+- [ ] Sections logiques et bien organisees
+- [ ] Hierarchie des titres respectee (H1 > H2 > H3)
+- [ ] Conclusion avec CTA
+- [ ] Longueurs de sections appropriees
 
-## Voice & Tone Reminders
-
-### Core Voice Characteristics
-1. Professional yet approachable
-2. Educational and empowering
-3. Podcast creator advocate
-4. Technically accurate but accessible
-5. Results and growth-focused
-
-### Tone Variations
-- **How-to content**: Instructive, step-by-step, encouraging
-- **Strategic content**: Authoritative, experienced, actionable
-- **Industry news**: Insightful, analytical, forward-looking
-- **Product content**: Benefit-focused, clear, honest
-
----
-
-## Editing Checklist
-
-Before publishing any content:
-
-**Grammar & Mechanics**:
-- [ ] Spelling checked
-- [ ] Grammar checked
-- [ ] Punctuation correct (Oxford comma, em dashes, etc.)
-- [ ] Numbers formatted consistently
-- [ ] Dates formatted correctly
-
-**Style**:
-- [ ] Follows capitalization guidelines
-- [ ] Uses preferred terminology
-- [ ] Consistent formatting (bold, italics, lists)
-- [ ] Links are descriptive
-- [ ] Voice and tone appropriate
-
-**Structure**:
-- [ ] Strong introduction (hook, problem, promise)
-- [ ] Logical section flow
-- [ ] Proper heading hierarchy
-- [ ] Effective conclusion with CTA
-- [ ] Appropriate section lengths
-
-**SEO**:
-- [ ] Keyword integrated naturally
-- [ ] Meta elements optimized
-- [ ] Internal and external links included
-- [ ] Images have alt text
-- [ ] URL slug optimized
-
-**Quality**:
-- [ ] Factually accurate
-- [ ] Sources cited
-- [ ] No broken links
-- [ ] Provides genuine value
-- [ ] Ready for publication
+**SEO** :
+- [ ] Titre meta 50-60 caracteres avec mot-cle
+- [ ] Meta description 150-160 caracteres avec CTA
+- [ ] Slug sans accents, avec mot-cle
+- [ ] Images avec texte alternatif
 
 ---
 
-## Updates & Maintenance
+**Version du guide** : 1.0
+**Derniere mise a jour** : 14 mars 2026
 
-**Style Guide Version**: 1.0
-**Last Updated**: [Date]
-**Next Review**: [Date]
-
-This style guide is a living document. Update as Castos brand and voice evolve.
-
-**Questions or Additions?**
-If you encounter a style question not covered here, make a decision, document it, and add it to this guide for future reference.
+Ce guide est un document vivant. Le mettre a jour quand la marque PrivAlert evolue.

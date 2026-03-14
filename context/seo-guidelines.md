@@ -1,499 +1,427 @@
-# SEO Guidelines for Castos Content
+# PrivAlert - Directives SEO
 
-This document outlines SEO best practices and requirements for all Castos blog content to maximize organic search visibility and rankings.
+Ce document definit les bonnes pratiques et exigences SEO pour tout contenu du blog PrivAlert afin de maximiser la visibilite en recherche organique sur le marche francais.
 
-## Content Length Requirements
+## Marche cible
 
-### Target Word Counts
-- **Standard Blog Post**: 1,500-3,000 words (target: 2,000-2,500)
-- **Pillar Content / Comprehensive Guides**: 3,000-5,000 words maximum
-- **How-To Guides**: 1,500-2,500 words
-- **News / Updates**: 800-1,200 words (exception to standard)
-
-### Important Length Guidelines
-- **Maximum for most articles**: 3,000 words
-- **Maximum for pillar content**: 5,000 words
-- If a topic requires more than the maximum, break it into a series of related articles
-- Aim for the lower end of ranges when possible—concise, focused content often performs better
-
-### Why Length Matters
-- Longer content typically ranks higher in search results
-- More words = more opportunities for keyword integration and topic coverage
-- Comprehensive content earns more backlinks and engagement
-- Depth signals expertise and authority to search engines
-
-### Quality Over Quantity
-- Don't add fluff just to hit word counts
-- Every section should provide genuine value
-- Better to have 2,000 valuable words than 3,000 padded words
-- **Stay within the maximum word counts**—overly long articles hurt user experience
-
-## Keyword Optimization
-
-### Keyword Research Requirements
-Before writing any article:
-1. Identify primary target keyword
-2. Research search volume and difficulty
-3. Analyze top 10 ranking competitors
-4. Identify 3-5 secondary/related keywords
-5. List LSI (Latent Semantic Indexing) keywords
-
-### Keyword Density Guidelines
-- **Primary Keyword**: 1-2% density
-  - Example: In a 2,000-word article, use keyword 20-40 times
-  - Natural integration is critical—never force keywords
-- **Secondary Keywords**: 0.5-1% density each
-- **LSI Keywords**: Sprinkle throughout naturally
-
-### Critical Keyword Placement
-Primary keyword MUST appear in:
-- [ ] H1 headline (preferably near the beginning)
-- [ ] First 100 words of article
-- [ ] At least 2-3 H2 subheadings
-- [ ] Last paragraph / conclusion
-- [ ] Meta title (within first 60 characters)
-- [ ] Meta description
-- [ ] URL slug
-
-### Keyword Integration Best Practices
-- **Natural language first**: Write for humans, optimize for search engines
-- **Use variations**: Don't repeat exact phrase robotically
-  - Example: "podcast hosting" → "hosting your podcast" → "podcast host"
-- **Question formats**: Include conversational variations
-  - "How to start a podcast" vs "starting a podcast"
-- **Semantic keywords**: Use related terms to support topical authority
-  - For "podcast editing": include "audio editing", "post-production", "editing workflow"
-
-### Keyword Stuffing (Avoid)
-❌ "Podcast hosting is important. Podcast hosting helps podcasters. Our podcast hosting platform offers podcast hosting services for podcast hosting needs."
-
-✅ "Podcast hosting is important for creators who want to distribute their show to major platforms. A reliable host ensures your episodes are accessible wherever listeners discover new content."
-
-## Content Structure Requirements
-
-### Heading Hierarchy
-
-#### H1 (Title)
-- **Only one H1 per article**
-- Include primary keyword naturally
-- 60 characters or less (for SERP display)
-- Compelling and benefit-focused
-- Should answer: "What will I learn/gain from this?"
-
-#### H2 (Main Sections)
-- **4-7 H2 sections** for standard articles
-- At least **2-3 should include keyword variations**
-- Descriptive and keyword-rich
-- Logical progression through topic
-- Can be standalone (readers should understand flow from H2s alone)
-
-#### H3 (Subsections)
-- Nested under H2s (never skip from H2 to H4)
-- Break complex sections into digestible chunks
-- Include keywords where natural
-- More specific than H2s
-
-### Article Structure Template
-
-```markdown
-# [H1: Compelling Title with Primary Keyword]
-
-## Introduction (150-250 words)
-- Hook: Attention-grabbing opening
-- Problem: What challenge does this address?
-- Promise: What will reader learn/achieve?
-- Keyword in first 100 words
-
-## [H2: Main Section 1 - Include Keyword Variation]
-### [H3: Subsection if needed]
-- Content depth
-- Examples
-- Data/statistics
-
-## [H2: Main Section 2]
-### [H3: Subsection if needed]
-- Content depth
-- Examples
-- Data/statistics
-
-## [H2: Main Section 3 - Include Keyword Variation]
-### [H3: Subsection if needed]
-- Content depth
-- Examples
-- Data/statistics
-
-## [H2: Main Section 4]
-[Continue with 4-7 total H2 sections]
-
-## Conclusion (150-250 words)
-- Recap key points (3-5 takeaways)
-- Include keyword
-- Clear call-to-action
-- Next steps for reader
-```
-
-## Meta Elements
-
-### Meta Title
-**Requirements**:
-- **Length**: 50-60 characters (including "| Castos" if used)
-- **Primary keyword**: Must be included
-- **Compelling**: Should encourage clicks from SERP
-- **Unique**: Different from all other Castos page titles
-- **Accurate**: Must match page content
-
-**Format Options**:
-- `[Primary Keyword]: [Benefit/Promise]`
-- `How to [Goal] | [Qualifier]`
-- `[Number] Ways to [Achieve Benefit]`
-- `[Topic] Guide for [Audience] | Castos`
-
-**Examples**:
-- ✅ "How to Start a Podcast in 2025: Complete Guide"
-- ✅ "12 Proven Podcast Growth Strategies | Castos"
-- ❌ "Podcast Tips and Tricks" (too vague, no keyword)
-- ❌ "The Ultimate Comprehensive Guide to Everything About Starting Your First Podcast Successfully" (too long)
-
-### Meta Description
-**Requirements**:
-- **Length**: 150-160 characters
-- **Primary keyword**: Include naturally
-- **Value proposition**: Clear benefit to reader
-- **Call-to-action**: Action phrase (Learn, Discover, Find out, Get, etc.)
-- **Complete**: Must not cut off mid-sentence
-- **Compelling**: Should drive clicks from SERP
-
-**Formula**:
-```
-[Problem/Question]? [Solution/Benefit]. [Unique angle]. [CTA].
-```
-
-**Examples**:
-- ✅ "Learn how to start a podcast with our step-by-step guide. Everything from equipment to launch strategy. Perfect for beginners. Start your show today." (159 chars)
-- ✅ "Discover 12 proven podcast growth strategies that top creators use. Increase downloads, engagement, and audience loyalty. Actionable tips inside." (155 chars)
-- ❌ "This is a blog post about podcasting where we discuss many podcast-related topics." (vague, no value prop, no CTA)
-
-### URL Slug
-**Requirements**:
-- Include primary keyword
-- Lowercase letters only
-- Hyphens between words (not underscores)
-- Short and descriptive (3-5 words ideal)
-- No stop words unless necessary (a, the, and, of, etc.)
-
-**Format**: `/blog/[primary-keyword-phrase]`
-
-**Examples**:
-- ✅ `/blog/start-podcast-guide`
-- ✅ `/blog/podcast-growth-strategies`
-- ✅ `/blog/podcast-editing-software`
-- ❌ `/blog/how-to-start-a-podcast-in-2025-the-complete-guide` (too long)
-- ❌ `/blog/post-12345` (no keywords)
-
-## Internal Linking Strategy
-
-### Requirements
-- **Minimum**: 3 internal links per article
-- **Optimal**: 4-5 internal links
-- **Maximum**: 7 internal links (unless 3,000+ word article)
-
-### Link Types to Include
-
-#### 1. Pillar Content (1-2 links)
-- Link to main comprehensive guides on related topics
-- Builds topic cluster authority
-- Usually 2,000+ word cornerstone content
-
-#### 2. Related Blog Posts (2-3 links)
-- Link to articles on related subtopics
-- Creates content web
-- Helps readers explore topics comprehensively
-
-#### 3. Product/Feature Pages (0-1 link)
-- Only when contextually relevant
-- Natural mention of how Castos solves problem
-- Never forced or overly promotional
-
-#### 4. Resource Pages (0-1 link)
-- Templates, tools, checklists
-- When mentioned as solutions in content
-- Provides additional value to reader
-
-### Internal Linking Best Practices
-
-**Anchor Text**:
-- ✅ Descriptive and keyword-rich: "our complete guide to podcast analytics"
-- ✅ Natural in sentence flow: "Learn more about podcast SEO strategies"
-- ❌ Generic: "click here" or "read more"
-- ❌ Exact match repeatedly: Always using same anchor text for same page
-
-**Placement**:
-- Within body paragraphs (most valuable)
-- Natural context that adds value to reader
-- Never more than 2 links per paragraph
-- Distributed throughout article, not clustered
-
-**Reference**:
-- Always check @context/internal-links-map.md for priority linking targets
-- Ensure links are current and functional
-- Link to most relevant, up-to-date content
-
-## External Linking Strategy
-
-### Requirements
-- **Minimum**: 2 external links per article
-- **Optimal**: 3-4 external authority links
-- Purpose: Add credibility, provide sources, support claims
-
-### What to Link Externally
-- **Statistics and data sources**: Always cite where numbers come from
-- **Research and studies**: Link to original research
-- **Tools and resources**: When recommending specific tools
-- **Industry authorities**: Expert opinions or industry publications
-
-### External Link Quality Standards
-- **Authority**: Link to credible, well-known sources
-  - ✅ Industry publications (Podcast Host, Podnews, etc.)
-  - ✅ Research institutions and studies
-  - ✅ Established media outlets
-  - ❌ Random blogs with no authority
-  - ❌ Spammy or low-quality sites
-
-- **Relevance**: Links must directly support content claims
-- **Freshness**: Prefer recent sources (within 1-2 years for data)
-- **Functionality**: All links must work (no broken links)
-
-### External Link Attributes
-- Most external links: No special attributes needed
-- Sponsored/affiliate links: Use `rel="sponsored"` or `rel="nofollow"`
-- User-generated content: Use `rel="nofollow"`
-
-## Readability Optimization
-
-### Target Reading Level
-- **Goal**: 8th-10th grade reading level (Flesch-Kincaid)
-- Makes content accessible to wider audience
-- Easier to scan and understand quickly
-
-### Sentence Structure
-- **Average length**: 15-20 words per sentence
-- **Maximum**: 25 words (break longer sentences into two)
-- **Variety**: Mix short punchy sentences with longer explanatory ones
-- **Active voice**: Preferred over passive voice (80%+ active)
-
-### Paragraph Structure
-- **Length**: 2-4 sentences per paragraph
-- **One idea**: Focus each paragraph on single point
-- **White space**: No walls of text
-- **Mobile-friendly**: Short paragraphs scan better on phones
-
-### Formatting for Scannability
-- **Subheadings**: Every 300-400 words
-- **Lists**: Use bullets/numbers for sequential or multiple items
-- **Bold**: Emphasize key concepts or takeaways
-- **Short paragraphs**: Easier to digest
-- **White space**: Makes content less intimidating
-
-### Transition Words
-Use transition words to improve flow (target: one per paragraph):
-- Addition: Additionally, Furthermore, Moreover
-- Contrast: However, On the other hand, Nevertheless
-- Cause/Effect: Therefore, Consequently, As a result
-- Example: For instance, For example, Specifically
-- Time: First, Next, Finally
-
-## Content Quality Standards
-
-### Expertise, Authoritativeness, Trustworthiness (E-A-T)
-
-#### Expertise
-- Provide accurate, detailed information on podcasting topics
-- Back claims with data and examples
-- Demonstrate deep understanding of podcast creator needs
-- Include actionable, practical advice
-
-#### Authoritativeness
-- Cite credible sources
-- Reference industry data and trends
-- Include expert quotes when relevant
-- Leverage Castos's position as hosting platform
-
-#### Trustworthiness
-- Be transparent and honest
-- Acknowledge limitations or challenges
-- Don't overpromise results
-- Cite sources for all statistics and claims
-- Update outdated content regularly
-
-### Content Originality
-- **Never plagiarize**: All content must be original
-- **Add unique value**: What perspective or insight do we add?
-- **Fresh examples**: Use current, relevant examples
-- **Updated data**: Use most recent statistics available
-- **Unique angle**: Differentiate from competitor content
-
-### Factual Accuracy
-- **Verify statistics**: Check all numbers and data points
-- **Current information**: Ensure practices/processes are up-to-date
-- **Technical accuracy**: Podcasting terminology and processes must be correct
-- **Castos features**: Ensure product references are accurate
-
-## Image Optimization
-
-### Image Requirements
-- **Relevant**: Images should support content points
-- **High-quality**: Professional appearance
-- **Optimized**: Compressed for fast loading
-- **Mobile-friendly**: Visible and useful on small screens
-
-### Image SEO
-**File Names**:
-- Descriptive and keyword-rich
-- ✅ `podcast-editing-software-interface.jpg`
-- ❌ `IMG_12345.jpg`
-
-**Alt Text**:
-- Describe what image shows (accessibility + SEO)
-- Include keywords naturally where relevant
-- 125 characters or less
-- ✅ "Podcast editing software interface showing waveform and timeline"
-- ❌ "Image"
-
-**Placement**:
-- Break up long text sections
-- Illustrate concepts being discussed
-- After explaining concept, not before
-
-## Featured Snippet Optimization
-
-Featured snippets appear at position 0 in Google search results. Optimize for them when possible.
-
-### Question-Based Snippets
-- Include question as H2 heading
-- Answer concisely in 40-60 words immediately after
-- Use clear, direct language
-
-**Example**:
-```markdown
-## What is Podcast Hosting?
-
-Podcast hosting is a service that stores your audio files and generates an RSS feed that distributes your episodes to podcast platforms like Apple Podcasts, Spotify, and Google Podcasts. Without a host, listeners can't discover or access your show on their favorite apps.
-```
-
-### List-Based Snippets
-- Use numbered or bulleted lists
-- Keep items concise (1-2 sentences each)
-- Include 5-8 items typically
-
-### Table-Based Snippets
-- Use HTML tables or markdown tables
-- Comparison charts, pricing, specifications
-- Clear headers and organized data
-
-### Definition Snippets
-- Define term in first sentence after heading
-- 40-60 word clear, concise definition
-- Expand with additional detail after
-
-## Mobile Optimization
-
-### Mobile-First Considerations
-- **Short paragraphs**: 2-3 sentences max
-- **Scannable**: Heavy use of subheadings and lists
-- **Large fonts**: Readable without zooming
-- **Tap-friendly links**: Adequate spacing
-- **Fast loading**: Optimized images
-
-## Content Refresh Strategy
-
-### When to Update Content
-- Article is 12+ months old
-- Statistics or data are outdated
-- Processes or best practices have changed
-- Competitor content has surpassed ours
-- Rankings have declined
-- New relevant information available
-
-### What to Update
-- Publication date or "Last Updated" date
-- Statistics with current data
-- Screenshots with current versions
-- Examples with recent case studies
-- SEO elements (keyword focus may have shifted)
-- Internal links to newer content
-
-## SEO Checklist for Every Article
-
-Before publishing, verify:
-
-### Content
-- [ ] 2,000+ words (or appropriate for content type)
-- [ ] Primary keyword identified
-- [ ] Keyword density 1-2%
-- [ ] 3-5 secondary keywords included
-- [ ] LSI keywords naturally integrated
-- [ ] Provides unique value vs. competitors
-- [ ] Factually accurate and current
-
-### Structure
-- [ ] One H1 with primary keyword
-- [ ] 4-7 H2 sections
-- [ ] 2-3 H2s include keyword variations
-- [ ] Proper H1>H2>H3 hierarchy
-- [ ] Keyword in first 100 words
-- [ ] Keyword in conclusion
-
-### Meta Elements
-- [ ] Meta title 50-60 characters with keyword
-- [ ] Meta description 150-160 characters with keyword & CTA
-- [ ] URL slug includes primary keyword
-- [ ] All meta elements are unique
-
-### Links
-- [ ] 3-5 internal links included
-- [ ] Internal links use descriptive anchor text
-- [ ] 2-3 external authority links
-- [ ] All links functional (no broken links)
-- [ ] Links add value to reader
-
-### Readability
-- [ ] 8th-10th grade reading level
-- [ ] Average sentence length 15-20 words
-- [ ] Paragraphs 2-4 sentences
-- [ ] Subheadings every 300-400 words
-- [ ] Lists used for scannability
-- [ ] Active voice predominantly
-
-### Images
-- [ ] Relevant images included
-- [ ] Descriptive file names
-- [ ] Alt text with keywords
-- [ ] Images optimized for web
-
-### Quality
-- [ ] No spelling or grammar errors
-- [ ] Factually accurate
-- [ ] Sources cited
-- [ ] Brand voice maintained
-- [ ] Provides actionable value
-- [ ] Clear call-to-action
-
-## SEO Tools & Resources
-
-### Recommended Tools
-- **Keyword Research**: Ahrefs, SEMrush, Google Keyword Planner
-- **Content Analysis**: Clearscope, Surfer SEO, MarketMuse
-- **Readability**: Hemingway Editor, Grammarly
-- **Technical SEO**: Screaming Frog, Google Search Console
-- **Rank Tracking**: Ahrefs, SEMrush, Google Search Console
-
-### Reference Resources
-- Google's Search Quality Evaluator Guidelines
-- Moz Beginner's Guide to SEO
-- Backlinko Blog (Brian Dean)
-- Search Engine Journal
-- Ahrefs Blog
+PrivAlert cible exclusivement le marche francais (google.fr). Toutes les optimisations SEO doivent etre pensees pour :
+- Des requetes en francais
+- Des habitudes de recherche francaises
+- Des SERP google.fr
+- Un public francophone base en France
 
 ---
 
-**Remember**: SEO serves the user, not the algorithm. Never sacrifice content quality, accuracy, or helpfulness for keyword optimization. The best SEO is great content that genuinely helps podcast creators succeed.
+## Longueur des contenus
+
+### Objectifs de nombre de mots
+
+- **Article de blog standard** : 1 500 a 2 500 mots (cible : 2 000)
+- **Contenu pilier / guide complet** : 2 500 a 4 000 mots maximum
+- **Guide pratique (how-to)** : 1 200 a 2 000 mots
+- **Comparatif** : 1 500 a 2 500 mots
+- **Article d'actualite / saisonnier** : 800 a 1 200 mots
+
+### Regles importantes
+
+- **Maximum pour la plupart des articles** : 2 500 mots
+- **Maximum pour le contenu pilier** : 4 000 mots
+- Si un sujet necessite plus, le decouper en une serie d'articles lies entre eux
+- La concision est une qualite : mieux vaut 1 500 mots utiles que 3 000 mots dilues
+- **Ne jamais ajouter du remplissage** pour atteindre un nombre de mots
+
+---
+
+## Optimisation des mots-cles
+
+### Recherche de mots-cles
+
+Avant de rediger un article :
+1. Identifier le mot-cle principal en francais
+2. Verifier le volume de recherche sur google.fr
+3. Analyser les 10 premiers resultats sur google.fr
+4. Identifier 3 a 5 mots-cles secondaires / associes
+5. Lister les mots-cles LSI (semantiquement proches)
+
+### Densite de mots-cles
+
+- **Mot-cle principal** : 1 a 2 % de densite
+  - Exemple : dans un article de 2 000 mots, utiliser le mot-cle 20 a 40 fois
+  - L'integration naturelle est primordiale : ne jamais forcer un mot-cle
+- **Mots-cles secondaires** : 0,5 a 1 % chacun
+- **Mots-cles LSI** : Parsemes naturellement dans le texte
+
+### Placement obligatoire du mot-cle principal
+
+Le mot-cle principal DOIT apparaitre dans :
+- [ ] Le titre H1 (de preference au debut)
+- [ ] Les 100 premiers mots de l'article
+- [ ] Au moins 2 a 3 sous-titres H2
+- [ ] Le dernier paragraphe / la conclusion
+- [ ] Le titre meta (dans les 60 premiers caracteres)
+- [ ] La meta description
+- [ ] Le slug de l'URL
+
+### Bonnes pratiques d'integration
+
+- **Langage naturel d'abord** : Ecrire pour les humains, optimiser pour les moteurs
+- **Utiliser des variantes** : Ne pas repeter la meme expression mecaniquement
+  - Exemple : "ventes privees" -> "ventes privees en ligne" -> "meilleures ventes privees" -> "ventes flash"
+- **Formulations interrogatives** : Inclure des variations conversationnelles
+  - "Quelles sont les meilleures ventes privees ?" / "comment profiter des ventes privees"
+- **Mots-cles semantiques** : Utiliser des termes lies pour renforcer l'autorite thematique
+  - Pour "ventes privees" : inclure "reductions", "marques", "destockage", "bons plans", "promotions"
+
+### Bourrage de mots-cles (a eviter)
+
+Mauvais : "Les ventes privees sont importantes. Les ventes privees permettent d'economiser. Notre agregateur de ventes privees regroupe les ventes privees pour les amateurs de ventes privees."
+
+Bon : "Les ventes privees permettent d'acceder a des marques a prix reduits. Avec un agregateur comme PrivAlert, tu retrouves toutes les offres au meme endroit sans avoir a consulter chaque plateforme individuellement."
+
+---
+
+## Structure des contenus
+
+### Hierarchie des titres
+
+#### H1 (Titre)
+- **Un seul H1 par article**
+- Inclure le mot-cle principal naturellement
+- 60 caracteres maximum (pour l'affichage SERP)
+- Oriente benefice, donne envie de lire
+- En francais, sentence case
+
+#### H2 (Sections principales)
+- **4 a 7 sections H2** pour un article standard
+- Au moins **2 a 3 doivent inclure des variantes du mot-cle**
+- Descriptifs et riches en mots-cles
+- Progression logique dans le sujet
+- Le lecteur doit comprendre le plan de l'article en lisant uniquement les H2
+
+#### H3 (Sous-sections)
+- Imbriques sous les H2 (ne jamais sauter de H2 a H4)
+- Decoupent les sections complexes en morceaux digestes
+- Inclure des mots-cles quand c'est naturel
+
+### Structure type d'un article
+
+```markdown
+# [H1 : Titre accrocheur avec mot-cle principal]
+
+## Introduction (100-200 mots)
+- Accroche : Question ou constat percutant
+- Probleme : Quel defi cet article adresse-t-il ?
+- Promesse : Ce que le lecteur va apprendre
+- Mot-cle dans les 100 premiers mots
+
+## [H2 : Section 1 - Inclure variante du mot-cle]
+### [H3 : Sous-section si necessaire]
+- Contenu detaille
+- Exemples concrets (marques, prix, plateformes)
+
+## [H2 : Section 2]
+### [H3 : Sous-section si necessaire]
+- Contenu detaille
+
+## [H2 : Section 3 - Inclure variante du mot-cle]
+### [H3 : Sous-section si necessaire]
+- Contenu detaille
+
+## [H2 : Section 4]
+[Continuer avec 4 a 7 sections H2 au total]
+
+## Conclusion (100-200 mots)
+- Resume des points cles (3-5 points)
+- Inclure le mot-cle
+- CTA clair oriente vers PrivAlert
+- Prochaines etapes pour le lecteur
+```
+
+---
+
+## Meta-donnees
+
+### Titre meta
+
+**Exigences** :
+- **Longueur** : 50 a 60 caracteres (avec "| PrivAlert" si possible)
+- **Mot-cle principal** : Obligatoire
+- **Accrocheur** : Doit inciter au clic depuis la SERP
+- **Unique** : Different de tous les autres titres du site
+- **En francais** : Toujours
+
+**Formats possibles** :
+- `[Mot-cle principal] : [Benefice/Promesse]`
+- `Comment [Objectif] | PrivAlert`
+- `[Nombre] [Astuces/Etapes] pour [Benefice]`
+- `[Sujet] : Guide complet [Annee] | PrivAlert`
+
+**Exemples** :
+- Bon : "Ventes privees en ligne : guide complet 2026 | PrivAlert"
+- Bon : "Veepee vs Showroomprive : quel site choisir ?"
+- Mauvais : "Astuces shopping" (trop vague, pas de mot-cle)
+- Mauvais : "Le guide ultime et complet de toutes les ventes privees en ligne en France pour 2026" (trop long)
+
+### Meta description
+
+**Exigences** :
+- **Longueur** : 150 a 160 caracteres
+- **Mot-cle principal** : Integre naturellement
+- **Proposition de valeur** : Benefice clair pour le lecteur
+- **Appel a l'action** : Verbe d'action (Decouvre, Compare, Consulte, etc.)
+- **Tutoiement** : Meme dans les metas
+- **Complete** : Ne doit pas etre coupee en milieu de phrase
+
+**Formule** :
+```
+[Question/Probleme] ? [Solution/Benefice]. [Angle unique]. [CTA].
+```
+
+**Exemples** :
+- Bon : "Tu veux ne plus rater aucune vente privee ? Decouvre comment PrivAlert regroupe 6 plateformes en un seul endroit. Guide complet et gratuit." (152 caracteres)
+- Bon : "Veepee ou Showroomprive ? Compare les deux leaders des ventes privees sur 5 criteres concrets pour choisir le site qui te convient." (137 caracteres)
+- Mauvais : "Article sur les ventes privees avec des informations utiles." (pas de valeur, pas de CTA)
+
+### Slug d'URL
+
+**Exigences** :
+- Inclure le mot-cle principal
+- Minuscules uniquement
+- Tirets entre les mots (pas d'underscores)
+- **Sans accents** : `ventes-privees` et non `ventes-privées`
+- Court et descriptif (3 a 5 mots)
+- Pas de mots vides sauf si necessaire
+
+**Format** : `/blog/[mot-cle-principal]`
+
+**Exemples** :
+- Bon : `/blog/guide-ventes-privees`
+- Bon : `/blog/veepee-vs-showroomprive`
+- Bon : `/blog/vente-privee-nike`
+- Mauvais : `/blog/le-guide-complet-de-toutes-les-ventes-privees-en-ligne-en-france-2026` (trop long)
+- Mauvais : `/blog/article-12345` (pas de mot-cle)
+
+---
+
+## Strategie de liens internes
+
+### Exigences
+
+- **Minimum** : 3 liens internes par article
+- **Optimal** : 4 a 6 liens internes
+- **Maximum** : 8 liens internes (sauf article 3 000+ mots)
+
+### Types de liens a inclure
+
+#### 1. Contenu pilier (1-2 liens)
+- Lier vers les guides complets sur des sujets connexes
+- Construit l'autorite du cluster thematique
+
+#### 2. Pages de l'application (1-2 liens)
+- Lier vers les pages pertinentes de privalert.app
+- Toujours utiliser les ancres definies dans internal-links-map.md
+
+#### 3. Articles de blog lies (2-3 liens)
+- Lier vers des articles sur des sous-sujets connexes
+- Creer un maillage interne riche
+
+#### 4. Pages marques (obligatoire)
+- **Regle absolue** : tout article mentionnant une marque DOIT lier vers `/marques/[slug-de-la-marque]`
+- Exemple : mention de Nike -> lien vers `/marques/nike` avec l'ancre "vente privee Nike"
+
+### Bonnes pratiques
+
+**Texte d'ancre** :
+- Descriptif et riche en mots-cles : "consulte le calendrier des ventes privees"
+- Naturel dans le flux de la phrase
+- Jamais "clique ici" ou "en savoir plus"
+- Varier les ancres pour une meme page cible
+
+**Placement** :
+- Dans le corps du paragraphe (plus de valeur SEO)
+- Contexte naturel qui apporte de la valeur au lecteur
+- Maximum 2 liens par paragraphe
+- Repartis dans tout l'article, pas concentres
+
+**Reference** :
+- Toujours consulter `context/internal-links-map.md` pour les cibles de liens prioritaires
+
+---
+
+## Strategie de liens externes
+
+### Exigences
+
+- **Minimum** : 1 a 2 liens externes par article
+- **Optimal** : 2 a 3 liens vers des sources d'autorite
+- Les liens vers les plateformes de ventes privees (Veepee, Showroomprive, etc.) comptent comme liens externes
+
+### Sources a privilegier
+
+- Sites officiels des plateformes de ventes privees
+- Etudes de marche sur le e-commerce en France (FEVAD, etc.)
+- Articles de presse sur les ventes privees
+- Sources statistiques (INSEE, etudes sectorielles)
+
+### Liens vers les plateformes
+
+- Lier vers les plateformes de ventes privees quand on les mentionne dans un contexte informatif
+- Pas de liens d'affiliation (PrivAlert est gratuit et neutre)
+- Ouvrir dans un nouvel onglet
+
+---
+
+## Optimisation pour les featured snippets
+
+### Snippets de type question
+
+- Inclure la question comme sous-titre H2
+- Repondre en 40 a 60 mots juste apres
+- Langage clair et direct
+
+**Exemple** :
+```markdown
+## Qu'est-ce qu'une vente privee ?
+
+Une vente privee est une operation commerciale a duree limitee (2 a 5 jours) proposee par des sites specialises comme Veepee ou Showroomprive. Elle permet d'acheter des produits de marques connues avec des reductions de -30 % a -70 % par rapport au prix public. L'acces est reserve aux membres inscrits sur la plateforme.
+```
+
+### Snippets de type liste
+
+- Utiliser des listes numerotees ou a puces
+- Elements concis (1-2 phrases chacun)
+- 5 a 8 elements typiquement
+
+### Snippets de type tableau
+
+- Comparatifs entre plateformes
+- Tableau avec en-tetes clairs
+- Donnees organisees et faciles a scanner
+
+---
+
+## Specificites SEO pour le marche francais
+
+### Requetes typiques francaises
+
+Les internautes francais formulent leurs requetes differemment :
+- Questions avec "comment" : "comment profiter des ventes privees"
+- Questions avec "quel/quelle" : "quel est le meilleur site de vente privee"
+- Recherches avec "avis" : "veepee avis", "showroomprive avis"
+- Recherches avec annee : "meilleures ventes privees 2026"
+- Recherches locales : "ventes privees en France"
+
+### Concurrence SEO francaise
+
+- Le marche francais est moins concurrentiel que l'anglophone sur les requetes de niche
+- Les requetes longue traine en francais offrent de bonnes opportunites
+- Les contenus comparatifs ("X vs Y", "meilleur site de...") performent bien
+
+### E-E-A-T pour le marche francais
+
+**Experience** :
+- Montrer que PrivAlert suit les ventes privees au quotidien
+- Inclure des exemples concrets de ventes recentes
+
+**Expertise** :
+- Demontrer une connaissance approfondie des 6 plateformes
+- Fournir des conseils precis et actionables
+
+**Autorite** :
+- Citer des sources fiables (FEVAD, etudes de marche)
+- Creer du contenu pilier complet et reference
+
+**Fiabilite** :
+- Etre transparent sur le fonctionnement de PrivAlert
+- Mentionner que le service est gratuit et sans publicite
+
+---
+
+## Optimisation mobile
+
+### Regles mobile-first
+
+- 70 %+ du trafic est mobile en France
+- Paragraphes courts : 2 a 3 phrases maximum
+- Sous-titres tous les 250-300 mots
+- Boutons CTA facilement cliquables
+- Images optimisees (WebP, lazy loading)
+
+---
+
+## Optimisation des images
+
+### Noms de fichiers
+
+- Descriptifs et riches en mots-cles
+- Sans accents
+- Bon : `vente-privee-nike-veepee.jpg`
+- Mauvais : `IMG_12345.jpg`
+
+### Texte alternatif
+
+- Decrire ce que l'image montre
+- Inclure un mot-cle naturellement
+- 125 caracteres maximum
+- Bon : "Capture d'ecran de l'agenda des ventes privees sur PrivAlert"
+- Mauvais : "Image"
+
+---
+
+## Checklist SEO pour chaque article
+
+### Contenu
+- [ ] 1 500+ mots (ou adapte au type de contenu)
+- [ ] Mot-cle principal identifie
+- [ ] Densite du mot-cle 1-2 %
+- [ ] 3 a 5 mots-cles secondaires integres
+- [ ] Mots-cles LSI parsemes naturellement
+- [ ] Apporte une valeur unique par rapport a la concurrence
+- [ ] Factuellement exact et a jour
+
+### Structure
+- [ ] Un H1 avec mot-cle principal
+- [ ] 4 a 7 sections H2
+- [ ] 2 a 3 H2 incluent des variantes du mot-cle
+- [ ] Hierarchie H1 > H2 > H3 respectee
+- [ ] Mot-cle dans les 100 premiers mots
+- [ ] Mot-cle dans la conclusion
+
+### Meta-donnees
+- [ ] Titre meta 50-60 caracteres avec mot-cle
+- [ ] Meta description 150-160 caracteres avec mot-cle et CTA
+- [ ] Slug d'URL avec mot-cle, sans accents
+- [ ] Tous les elements meta sont uniques
+
+### Liens
+- [ ] 3 a 6 liens internes inclus
+- [ ] Liens internes avec ancres descriptives
+- [ ] 1 a 3 liens externes vers des sources d'autorite
+- [ ] Tous les liens fonctionnent
+- [ ] Toute marque mentionnee est liee a sa page `/marques/[slug]`
+
+### Lisibilite
+- [ ] Niveau de lecture accessible (equivalent college/lycee)
+- [ ] Phrases de 12 a 20 mots en moyenne
+- [ ] Paragraphes de 2 a 4 phrases
+- [ ] Sous-titres tous les 250-350 mots
+- [ ] Listes utilisees pour la scannabilite
+- [ ] Voix active predominante
+
+### Images
+- [ ] Images pertinentes incluses
+- [ ] Noms de fichiers descriptifs sans accents
+- [ ] Texte alternatif avec mots-cles
+- [ ] Images optimisees pour le web (WebP)
+
+### Qualite
+- [ ] Pas de fautes d'orthographe ni de grammaire
+- [ ] Factuellement exact
+- [ ] Sources citees
+- [ ] Voix PrivAlert respectee (tutoiement, ton complice)
+- [ ] Apporte une valeur actionnable
+- [ ] CTA clair oriente vers PrivAlert
+
+---
+
+**A retenir** : Le SEO sert l'utilisateur, pas l'algorithme. Ne jamais sacrifier la qualite, l'exactitude ou l'utilite du contenu pour optimiser un mot-cle. Le meilleur SEO, c'est un contenu exceptionnel qui aide concretement les chasseurs de bons plans.

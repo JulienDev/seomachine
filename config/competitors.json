@@ -1,0 +1,56 @@
+{
+  "competitors": [
+    {
+      "name": "Dealabs",
+      "domain": "dealabs.com",
+      "type": "indirect",
+      "strengths": ["SEO authority", "community UGC", "broad deal coverage"],
+      "weaknesses": ["Not specialized in ventes privées", "Noisy signal-to-noise ratio"],
+      "bofu_keywords": ["dealabs ventes privées", "dealabs bon plan mode"]
+    },
+    {
+      "name": "Ma-Reduc",
+      "domain": "ma-reduc.com",
+      "type": "indirect",
+      "strengths": ["Promo code authority", "Strong backlink profile"],
+      "weaknesses": ["Focus on coupons, not ventes privées", "Less relevant audience"],
+      "bofu_keywords": ["code promo veepee", "code promo showroomprive"]
+    },
+    {
+      "name": "iGraal",
+      "domain": "igraal.com",
+      "type": "indirect",
+      "strengths": ["Cashback model", "Similar deal-seeking audience"],
+      "weaknesses": ["Different value proposition", "No vente privée aggregation"],
+      "bofu_keywords": ["igraal ventes privées", "cashback vente privée"]
+    },
+    {
+      "name": "Radins",
+      "domain": "radins.com",
+      "type": "indirect",
+      "strengths": ["Good deals generalist", "Established brand"],
+      "weaknesses": ["Not focused on ventes privées", "Broad scope dilutes relevance"],
+      "bofu_keywords": ["radins ventes privées", "bons plans mode radins"]
+    },
+    {
+      "name": "Veepee Magazine",
+      "domain": "veepee.fr/magazine",
+      "type": "indirect",
+      "strengths": ["Brand authority from Veepee", "Quality editorial content"],
+      "weaknesses": ["Biased toward Veepee platform only", "Not an aggregator"],
+      "bofu_keywords": ["veepee magazine", "veepee guide mode"]
+    }
+  ],
+  "bofu_keywords": [
+    "meilleur agrégateur ventes privées",
+    "application ventes privées",
+    "alerte vente privée",
+    "calendrier ventes privées",
+    "comparatif sites ventes privées",
+    "veepee vs showroomprive",
+    "toutes les ventes privées",
+    "ne rater aucune vente privée",
+    "suivi marques vente privée",
+    "agenda ventes privées"
+  ]
+}

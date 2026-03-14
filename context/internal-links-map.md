@@ -1,224 +1,161 @@
-# Internal Links Map
+# PrivAlert - Carte des liens internes
 
-<!-- INSTRUCTIONS: This document catalogs key pages on your website that should be referenced
-     in blog content for strategic internal linking.
-
-     Fill in all sections with your actual URLs and linking guidelines.
-     This helps Claude create relevant internal links while writing content.
-
-     Delete these instruction comments when done.
-     See examples/castos/internal-links-map.md for a complete real-world example. -->
-
-This document catalogs key [YOUR COMPANY] pages that should be referenced in blog content for strategic internal linking. Use this as your go-to reference when adding internal links to articles.
-
-## Instructions
-
-Fill in URLs and descriptions for all important pages on your website. Update as new content is created or pages are updated.
-
-For each page, include:
-- **URL**: The full URL to the page
-- **When to Link**: Context or topics where this link is relevant
-- **Anchor Text Examples**: Natural phrases to use when linking
+Ce document repertorie les pages cles de PrivAlert qui doivent etre referencees dans les contenus du blog pour un maillage interne strategique. Consulter ce fichier systematiquement lors de la redaction d'articles.
 
 ---
 
-## Homepage & Core Pages
+## Pages principales de l'application
 
-### Homepage
-- **URL**: https://[yoursite.com]
-- **When to Link**: [e.g., "Rarely; only when referencing your company broadly"]
-- **Anchor Text Examples**: "[your company name]", "our platform", "[your product]"
+### Accueil
+- **URL** : https://privalert.app/
+- **Quand lier** : Quand on presente PrivAlert de maniere generale, en introduction ou conclusion d'article
+- **Ancres a utiliser** :
+  - "PrivAlert"
+  - "agregateur de ventes privees"
+  - "toutes les ventes privees au meme endroit"
+  - "PrivAlert, l'agregateur gratuit de ventes privees"
 
-### About Page
-- **URL**: https://[yoursite.com/about]
-- **When to Link**: [e.g., "When discussing company mission, values, or team"]
-- **Anchor Text Examples**: "about [company]", "our mission", "our story"
+### Agenda / Calendrier
+- **URL** : https://privalert.app/agenda
+- **Quand lier** : Quand on parle de planification d'achats, de prochaines ventes, de calendrier des ventes, ou de ventes a venir
+- **Ancres a utiliser** :
+  - "calendrier des ventes privees"
+  - "agenda des ventes"
+  - "agenda des ventes privees"
+  - "voir les prochaines ventes"
+  - "consulte l'agenda des ventes privees"
+  - "planifie tes achats"
 
-### Contact Page
-- **URL**: https://[yoursite.com/contact]
-- **When to Link**: [e.g., "When inviting readers to reach out"]
-- **Anchor Text Examples**: "contact us", "get in touch", "reach out"
+### Repertoire des marques
+- **URL** : https://privalert.app/marques
+- **Quand lier** : Quand on parle de marques disponibles en vente privee, de diversite des marques, ou de recherche de marques
+- **Ancres a utiliser** :
+  - "toutes les marques"
+  - "repertoire des marques"
+  - "les marques disponibles en vente privee"
+  - "plus de 500 marques suivies"
+  - "decouvre toutes les marques"
 
-### Pricing Page
-- **URL**: https://[yoursite.com/pricing]
-- **When to Link**: [e.g., "When discussing costs, plans, or pricing"]
-- **Anchor Text Examples**: "[product] pricing", "pricing plans", "see pricing"
+### Pages marques individuelles
+- **URL** : https://privalert.app/marques/[slug]
+- **Quand lier** : **OBLIGATOIRE** - Tout article qui mentionne une marque DOIT lier vers sa page marque
+- **Ancres a utiliser** :
+  - "vente privee [marque]"
+  - "prochaine vente [marque]"
+  - "toutes les ventes [marque]"
+  - "suis [marque] sur PrivAlert"
 
----
+**Exemples de pages marques** :
+| Marque | URL | Ancres suggerees |
+|--------|-----|-----------------|
+| Nike | /marques/nike | "vente privee Nike", "prochaine vente Nike" |
+| Adidas | /marques/adidas | "vente privee Adidas", "prochaine vente Adidas" |
+| Lacoste | /marques/lacoste | "vente privee Lacoste", "prochaine vente Lacoste" |
+| Levi's | /marques/levis | "vente privee Levi's", "prochaine vente Levi's" |
+| The North Face | /marques/the-north-face | "vente privee The North Face" |
+| Ralph Lauren | /marques/ralph-lauren | "vente privee Ralph Lauren" |
+| Samsung | /marques/samsung | "vente privee Samsung" |
+| Dyson | /marques/dyson | "vente privee Dyson" |
+| Puma | /marques/puma | "vente privee Puma" |
+| New Balance | /marques/new-balance | "vente privee New Balance" |
+| Mango | /marques/mango | "vente privee Mango" |
+| Tommy Hilfiger | /marques/tommy-hilfiger | "vente privee Tommy Hilfiger" |
+| Calvin Klein | /marques/calvin-klein | "vente privee Calvin Klein" |
+| Swarovski | /marques/swarovski | "vente privee Swarovski" |
+| KitchenAid | /marques/kitchenaid | "vente privee KitchenAid" |
 
-## Product/Service Pages
+### Sites / Plateformes partenaires
+- **URL** : https://privalert.app/sites
+- **Quand lier** : Quand on parle des plateformes de ventes privees de maniere generale, des sites agreges, ou d'un comparatif des plateformes
+- **Ancres a utiliser** :
+  - "sites de ventes privees"
+  - "plateformes partenaires"
+  - "les 6 plateformes de ventes privees"
+  - "decouvre les sites agreges"
+  - "plateformes de ventes privees"
 
-<!-- INSTRUCTIONS: Add your main product or service pages -->
-
-### [Product/Service Name 1]
-- **URL**: https://[yoursite.com/product-1]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
-
-### [Product/Service Name 2]
-- **URL**: https://[yoursite.com/product-2]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
-
-### [Product/Service Name 3]
-- **URL**: https://[yoursite.com/product-3]
-- **When to Link**: [Topics/contexts where this is relevant]
-- **Anchor Text Examples**: "[descriptive phrase]", "[benefit-focused phrase]", "[feature name]"
-
----
-
-## Feature Pages
-
-<!-- INSTRUCTIONS: Add pages for specific features or capabilities -->
-
-### [Feature Name 1]
-- **URL**: https://[yoursite.com/feature-1]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
-
-### [Feature Name 2]
-- **URL**: https://[yoursite.com/feature-2]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
-
-### [Feature Name 3]
-- **URL**: https://[yoursite.com/feature-3]
-- **When to Link**: In articles about [relevant topics]
-- **Anchor Text Examples**: "[feature name]", "[what it does]", "[benefit phrase]"
-
----
-
-## Use Case / Solution Pages
-
-<!-- INSTRUCTIONS: Add pages for specific use cases, industries, or customer segments -->
-
-### [Use Case 1]
-- **URL**: https://[yoursite.com/use-case-1]
-- **When to Link**: In articles targeting [audience segment] or discussing [problem/solution]
-- **Anchor Text Examples**: "[use case description]", "[for whom]", "[solution phrase]"
-
-### [Use Case 2]
-- **URL**: https://[yoursite.com/use-case-2]
-- **When to Link**: In articles targeting [audience segment] or discussing [problem/solution]
-- **Anchor Text Examples**: "[use case description]", "[for whom]", "[solution phrase]"
-
----
-
-## Resource Pages
-
-<!-- INSTRUCTIONS: Add links to guides, tools, templates, or other resources -->
-
-### [Resource Name 1]
-- **URL**: https://[yoursite.com/resources/resource-1]
-- **When to Link**: [When this resource would help the reader]
-- **Anchor Text Examples**: "[resource name]", "[what it provides]", "free [resource type]"
-
-### [Resource Name 2]
-- **URL**: https://[yoursite.com/resources/resource-2]
-- **When to Link**: [When this resource would help the reader]
-- **Anchor Text Examples**: "[resource name]", "[what it provides]", "free [resource type]"
+### Blog
+- **URL** : https://privalert.app/blog
+- **Quand lier** : Pour diriger vers d'autres articles, en conclusion, ou dans les CTA vers plus de contenus
+- **Ancres a utiliser** :
+  - "blog PrivAlert"
+  - "guides ventes privees"
+  - "nos guides et conseils"
+  - "tous nos articles"
 
 ---
 
-## Top-Performing Blog Posts
+## Regle obligatoire : liens vers les pages marques
 
-<!-- INSTRUCTIONS: Add your 10-20 best blog posts that get good traffic and conversions.
-     These are "pillar content" you want to link to frequently. -->
+**Regle absolue** : Tout article qui mentionne une marque par son nom DOIT inclure un lien vers la page `/marques/[slug]` correspondante.
 
-### [Blog Post Title 1]
-- **URL**: https://[yoursite.com/blog/post-1]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
+Exemples :
+- Mention de Nike dans un article -> lien vers `/marques/nike` avec l'ancre "vente privee Nike" ou "prochaine vente Nike"
+- Mention de Lacoste dans un comparatif -> lien vers `/marques/lacoste` avec l'ancre "toutes les ventes Lacoste"
+- Mention de Adidas dans un guide sport -> lien vers `/marques/adidas` avec l'ancre "vente privee Adidas"
 
-### [Blog Post Title 2]
-- **URL**: https://[yoursite.com/blog/post-2]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 3]
-- **URL**: https://[yoursite.com/blog/post-3]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 4]
-- **URL**: https://[yoursite.com/blog/post-4]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-### [Blog Post Title 5]
-- **URL**: https://[yoursite.com/blog/post-5]
-- **Primary Topic**: [Main topic/keyword]
-- **When to Link**: In articles about [related topics]
-- **Anchor Text Examples**: "[topic phrase]", "[how-to phrase]", "[question phrase]"
-
-<!-- Add 5-15 more of your top blog posts following the same format -->
+Si la marque est mentionnee plusieurs fois dans le meme article, lier uniquement a la premiere mention significative.
 
 ---
 
-## Comparison Pages
+## Reference rapide par sujet
 
-<!-- INSTRUCTIONS: If you have comparison or "vs" pages, add them here -->
+**Quand on ecrit sur les ventes privees en general**, lier vers :
+- https://privalert.app/ - Presentation generale de PrivAlert
+- https://privalert.app/agenda - Calendrier des ventes en cours
+- https://privalert.app/sites - Les plateformes agregees
 
-### [Your Product] vs [Competitor 1]
-- **URL**: https://[yoursite.com/vs/competitor-1]
-- **When to Link**: When mentioning [competitor] or discussing alternatives
-- **Anchor Text Examples**: "[your product] vs [competitor]", "comparison with [competitor]"
+**Quand on ecrit un comparatif de plateformes**, lier vers :
+- https://privalert.app/sites - Vue d'ensemble des plateformes
+- https://privalert.app/ - PrivAlert comme solution neutre
+- https://privalert.app/marques - Pour montrer l'etendue des marques couvertes
 
-### [Your Product] vs [Competitor 2]
-- **URL**: https://[yoursite.com/vs/competitor-2]
-- **When to Link**: When mentioning [competitor] or discussing alternatives
-- **Anchor Text Examples**: "[your product] vs [competitor]", "comparison with [competitor]"
+**Quand on ecrit sur une marque specifique**, lier vers :
+- https://privalert.app/marques/[slug] - Page de la marque (OBLIGATOIRE)
+- https://privalert.app/agenda - Pour voir quand la prochaine vente a lieu
+- https://privalert.app/marques - Pour explorer d'autres marques
 
----
+**Quand on ecrit un guide saisonnier (Black Friday, Noel, soldes)**, lier vers :
+- https://privalert.app/agenda - Calendrier des ventes de la periode
+- https://privalert.app/ - PrivAlert pour ne rien rater
+- https://privalert.app/marques - Marques les plus cherchees pour l'occasion
 
-## Landing Pages
-
-<!-- INSTRUCTIONS: Add any campaign-specific or conversion-optimized landing pages -->
-
-### [Campaign/Offer Name]
-- **URL**: https://[yoursite.com/landing/offer-1]
-- **When to Link**: [Specific contexts for this offer]
-- **Anchor Text Examples**: "[offer description]", "[call to action]", "[benefit phrase]"
-
----
-
-## Internal Linking Best Practices
-
-When adding internal links to blog content:
-
-1. **Link Naturally**: Only link when genuinely relevant and helpful to the reader
-2. **Vary Anchor Text**: Use different phrases for the same destination URL
-3. **3-5 Links Per Post**: Aim for 3-5 strategic internal links in each blog post
-4. **Deep Linking**: Link to specific relevant pages, not just the homepage
-5. **Early Links Matter**: Links in the first few paragraphs carry more weight
-6. **Update This Map**: Add new pages as you create them, remove outdated URLs
+**Quand on ecrit un article "bons plans mode"**, lier vers :
+- https://privalert.app/marques - Toutes les marques disponibles
+- https://privalert.app/marques/[slug] - Pages des marques citees (OBLIGATOIRE)
+- https://privalert.app/agenda - Ventes en cours
 
 ---
 
-## Quick Reference by Topic
+## Articles du blog (a completer au fil des publications)
 
-<!-- INSTRUCTIONS: Create a quick topic-to-URL mapping for common themes you write about.
-     This helps Claude quickly find relevant links while writing. -->
+Les articles publies doivent etre ajoutes ici pour faciliter le maillage interne entre articles.
 
-**When writing about [Topic 1]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+### Articles piliers (a creer en priorite)
 
-**When writing about [Topic 2]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
-
-**When writing about [Topic 3]**, link to:
-- [URL 1] - [Brief description]
-- [URL 2] - [Brief description]
-- [URL 3] - [Brief description]
+| Titre prevu | Slug prevu | Mot-cle cible | Lier depuis |
+|-------------|-----------|---------------|-------------|
+| Guide complet des ventes privees en France | /blog/guide-ventes-privees | ventes privees en ligne | Tout article sur les ventes privees |
+| Meilleur site de vente privee : comparatif complet | /blog/meilleur-site-vente-privee | meilleur site vente privee | Tout comparatif |
+| Veepee vs Showroomprive : quel site choisir ? | /blog/veepee-vs-showroomprive | comparatif veepee showroomprive | Articles sur Veepee ou Showroomprive |
+| Soldes vs ventes privees : quoi choisir ? | /blog/soldes-vs-ventes-privees | soldes vs ventes privees | Articles saisonniers, guides debutants |
+| Comment ne plus rater une vente privee | /blog/ne-plus-rater-vente-privee | ne pas rater vente privee | Articles sur les alertes, PrivAlert |
 
 ---
 
-*Note: Keep this document updated as you publish new content or restructure your site. Accurate internal linking improves SEO and user experience.*
+## Bonnes pratiques de maillage interne
+
+1. **Lier naturellement** : Le lien doit apporter de la valeur au lecteur dans le contexte de sa lecture
+2. **Varier les ancres** : Ne pas toujours utiliser la meme ancre pour la meme page cible
+3. **3 a 6 liens par article** : Viser 3 a 6 liens internes strategiques par article
+4. **Liens profonds** : Privilegier les liens vers des pages specifiques (marques, agenda) plutot que la page d'accueil
+5. **Premiers paragraphes** : Les liens places tot dans l'article ont plus de poids SEO
+6. **Maximum 2 liens par paragraphe** : Ne pas surcharger un paragraphe de liens
+7. **Repartition** : Distribuer les liens dans tout l'article, pas les concentrer
+8. **Mettre a jour ce fichier** : Ajouter chaque nouvel article publie pour enrichir le maillage futur
+
+---
+
+**Derniere mise a jour** : 14 mars 2026
+
+Ce document doit etre mis a jour a chaque nouvelle page ou article publie sur PrivAlert.
