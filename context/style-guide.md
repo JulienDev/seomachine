@@ -1,365 +1,303 @@
-# PrivAlert - Guide de style
+# IPTV One - Style Guide
 
-Ce guide definit les conventions d'ecriture, les standards de mise en forme et les regles editoriales pour tout contenu PrivAlert.
-
----
-
-## Langue
-
-Tous les contenus sont rediges exclusivement en **francais**. Aucun article, meta description ou titre ne doit etre en anglais sauf citation directe d'un nom de marque ou de plateforme (Veepee, Showroomprive, The Bradery, etc.).
+This guide defines writing conventions, formatting standards, and editorial rules for all IPTV One content across all languages.
 
 ---
 
-## Grammaire et mecanique
+## Language Strategy
 
-### Tutoiement obligatoire
+IPTV One content is produced in multiple languages. Each language version must feel native — not translated. This guide provides universal rules plus language-specific notes.
 
-Le tutoiement est la regle absolue pour tout contenu PrivAlert :
-- "Tu vas decouvrir..." et jamais "Vous allez decouvrir..."
-- "Suis tes marques preferees" et jamais "Suivez vos marques preferees"
-- Seule exception : les mentions legales et la politique de confidentialite (vouvoiement juridique)
+### Primary content languages (by priority):
+1. English (global default)
+2. French
+3. German
+4. Swedish
+5. Dutch
+6. Spanish
+7. Norwegian
+8. Arabic
+9. Portuguese
+10. Turkish
+11. Italian
+12. Danish
+13. Finnish
 
-### Majuscules
+### Localization Rules
 
-**Titres et sous-titres** :
-- Sentence case (majuscule uniquement au premier mot et aux noms propres)
-- "Guide complet des ventes privees en France" et non "Guide Complet Des Ventes Privees En France"
-
-**Noms de plateformes** (toujours respecter la graphie officielle) :
-- Veepee (pas VeePee, pas VEEPEE)
-- Showroomprive (pas ShowroomPrive, pas Showroom Prive)
-- Zalando Prive (avec accent)
-- Bazarchic
-- The Bradery
-- Private Sport Shop
-
-**Noms de marques** : Respecter la graphie officielle (Nike, Adidas, Lacoste, Levi's, The North Face, etc.)
-
-**PrivAlert** : Toujours avec le P et le A majuscules. Jamais "Privalert", "PRIVALERT" ou "privalert".
-
-### Accents
-
-Les accents sont **obligatoires** en toute circonstance, y compris dans les titres et les majuscules :
-- e, e, e (precis, tres, fete)
-- a (a, deja)
-- u (ou)
-- c (ca, francais, recu)
-- i, u (noel, ambigue) quand necessaire
-
-Meme en debut de phrase : "A decouvrir cette semaine..." et non "A decouvrir cette semaine..."
-
-### Typographie francaise
-
-Respecter les regles typographiques francaises avec **espaces insecables** avant les signes de ponctuation doubles :
-- Espace insecable avant `:` (deux-points)
-- Espace insecable avant `;` (point-virgule)
-- Espace insecable avant `!` (point d'exclamation)
-- Espace insecable avant `?` (point d'interrogation)
-- Pas d'espace avant `.` et `,`
-
-Guillemets francais : utiliser les guillemets francais dans le corps du texte.
-- "Toutes les ventes privees au meme endroit"
-
-### Nombres
-
-**Quand ecrire en lettres** :
-- De un a neuf dans le texte courant
-- En debut de phrase, toujours en lettres
-
-**Quand utiliser les chiffres** :
-- A partir de 10
-- Pourcentages : -50 %, -30 % (avec espace insecable avant %)
-- Prix : 59,90 EUR, 120 EUR (virgule decimale, symbole EUR apres)
-- Statistiques et listes pour la lisibilite
-
-**Separateur des milliers** : espace insecable
-- 1 000, 10 000, 500 000
-- Jamais de point comme separateur : pas 1.000
-
-**Prix et euros** :
-- Symbole EUR apres le nombre : 49,90 EUR
-- Virgule pour les decimales : 5,50 EUR (pas 5.50 EUR)
-- Tiret pour les reductions : de 150 EUR a 60 EUR ou 150 EUR -> 60 EUR
-
-### Ponctuation
-
-**Virgule de serie (Oxford comma)** : Non utilisee en francais
-- "Veepee, Showroomprive et Zalando Prive" (pas de virgule avant "et")
-
-**Tiret cadratin** :
-- Utiliser -- (tiret cadratin) pour les incises
-- "Les ventes privees -- contrairement aux soldes -- ont lieu toute l'annee."
-
-**Points de suspension** :
-- Trois points : ...
-- Pas d'espace avant, espace apres
-- Utiliser avec parcimonie
-
-### Dates et heures
-
-**Format de date** : jour mois annee, en lettres pour le mois
-- 14 mars 2026
-- 1er janvier 2026 (avec "er" en exposant pour le premier du mois)
-- Jamais : 14/03/2026 dans le texte (acceptable dans les tableaux)
-
-**Format d'heure** :
-- Format 24h : 7h00, 14h30, 20h00
-- Pas de format 12h (pas de AM/PM)
-
-### Abreviations
-
-**Premiere utilisation** : Ecrire en entier puis acronyme entre parentheses si necessaire
-- "Private Sport Shop (PSS)" a la premiere mention, puis "PSS" ensuite
-
-**Abreviations courantes acceptees** :
-- etc.
-- ex. (pour "exemple")
-- vs (pour "versus", sans point)
-
-**Eviter** :
-- c-a-d (ecrire "c'est-a-dire")
-- bcp, tj, etc. (abreviations SMS)
+- **Write natively, don't translate**: Each language version should be written or adapted to feel natural in that language.
+- **Research keywords per language**: Direct translations of keywords often miss the actual search terms people use.
+- **Adapt examples**: Use region-appropriate references. A French article can reference French TV habits; a German article can reference German platforms.
+- **Platform names stay in English**: IPTV One, Google Play, App Store, Microsoft Store, Snap Store are never translated.
+- **Technical terms**: M3U, EPG, Xtream Codes, Stalker Portal, HDR, 4K — keep in English across all languages.
 
 ---
 
-## Choix de mots et terminologie
+## Grammar & Mechanics
 
-### Termes privilegies
+### Capitalization
 
-| Dire | Ne pas dire | Raison |
-|------|-------------|--------|
-| vente privee | private sale, flash sale | Public francais, terme reconnu |
-| bon plan | deal, good deal | Naturel en francais |
-| marque | brand | Francais |
-| reduction | discount | Francais |
-| plateforme / site | marketplace | Plus clair en francais |
-| agreger / centraliser | compiler, merger | Plus precis pour notre usage |
-| alerte | alert, notification | Sauf contexte technique |
-| chasseur de bons plans | deal hunter | Plus naturel |
-| pouvoir d'achat | purchasing power | Expression francaise courante |
-| panier moyen | average basket | Francais |
-| gratuit | free | Francais |
-| en ligne | online | Francais |
+**Titles and headings**:
+- English: Sentence case ("Best IPTV player for Windows" not "Best IPTV Player For Windows")
+- French: Sentence case (same rule)
+- German: Follow German capitalization rules (nouns capitalized)
+- Other languages: Follow local conventions
 
-### Termes du secteur
+**Product names** (always respect official spelling):
+- IPTV One (both words capitalized, no hyphen)
+- TiviMate (not Tivimate, not TIVIMATE)
+- IPTV Smarters (not Smarters Pro unless referring to the specific Pro version)
+- OTT Navigator
 
-- **Vente privee** : Vente a duree limitee (2 a 5 jours) reservee aux membres d'une plateforme, avec des reductions importantes sur des marques
-- **Vente flash** : Vente tres courte (quelques heures), a distinguer de la vente privee classique
-- **Destockage** : Vente de surplus de stock, souvent avec de plus grosses reductions
-- **Soldes** : Periodes legales de soldes (hiver et ete), a ne pas confondre avec les ventes privees
-- **Black Friday** : Evenement commercial de fin novembre, distinct des ventes privees mais souvent combine
+**Technical terms**:
+- M3U / M3U8 (always uppercase)
+- EPG (always uppercase)
+- Xtream Codes (both capitalized)
+- Stalker Portal (both capitalized)
+- HDR, 4K, Dolby Vision (standard formatting)
+- VOD (always uppercase)
+- PiP (Picture-in-Picture)
 
-### Mots a eviter
+### Numbers
 
-- "Innovant", "revolutionnaire", "disruptif" (jargon startup vide de sens)
-- "Solution" utilise seul (trop vague)
-- "Cliquez ici" (pas de tutoiement + non descriptif)
-- "N'hesitez pas" (pas de tutoiement + mou)
-- "Nous sommes ravis" (ton corporate)
-- Anglicismes inutiles quand un equivalent francais existe
+**Write in words**: One through nine in body text
+**Use digits**: 10 and above, percentages, prices, technical specs
 
-### Langage inclusif
+**Technical specifications**:
+- 4K, 1080p, 720p (always digits with unit)
+- 28 languages (digit)
+- 5 platforms (digit when listing count)
 
-- Utiliser l'ecriture inclusive avec parcimonie et lisibilite : privilegier les formulations neutres
-- "Les personnes qui achetent" plutot que "les acheteurs/acheteuses"
-- Acceptable : "les utilisateurs et utilisatrices" pour les mentions importantes
-- Eviter le point median dans le texte courant (nuit a la lisibilite et au SEO)
+**Prices**: Use local currency formatting per language
 
----
+### Punctuation
 
-## Standards de mise en forme
+**Lists**:
+- Capitalize first word of each item
+- No period if fragment, period if complete sentence
+- Parallel structure (all fragments or all sentences)
 
-### Mise en forme du texte
-
-**Gras** :
-- Pour les concepts cles, les noms de plateformes a la premiere mention, les prix importants
-- Ne pas abuser : si tout est en gras, rien ne ressort
-- "La vente **Nike** sur **Veepee** affiche des reductions jusqu'a **-60 %**"
-
-**Italique** :
-- Pour l'emphase legere, les titres de ventes specifiques
-- Utiliser avec parcimonie
-
-**MAJUSCULES** :
-- Uniquement pour les acronymes reconnus (SEO, CTA)
-- Jamais pour l'emphase dans le texte
-
-### Listes
-
-**Listes a puces** :
-- Pour les elements non ordonnes (avantages, fonctionnalites)
-- Majuscule au premier mot de chaque element
-- Pas de point final si fragment, point si phrase complete
-- Structure parallele (tous fragments ou toutes phrases)
-
-**Listes numerotees** :
-- Pour les etapes sequentielles, les classements
-- Format : 1. 2. 3.
-- Memes regles de ponctuation que les listes a puces
-
-### Liens
-
-**Texte d'ancre** :
-- Descriptif et riche en mots-cles
-- 2 a 5 mots idealement
-- "decouvre le calendrier des ventes privees"
-- Jamais "clique ici" ou "en savoir plus" seul
-
-**Ouverture** :
-- Liens internes : meme onglet
-- Liens externes (vers les plateformes) : nouvel onglet
+**Em dashes**: Use for parenthetical asides
+- "IPTV One supports three formats — M3U, Xtream Codes, and Stalker Portal — covering virtually every IPTV source."
 
 ---
 
-## Structure des contenus
+## Terminology
 
-### Introduction d'article
+### Standard Terms
 
-**Structure standard** (100 a 200 mots) :
-1. **Accroche** (1-2 phrases) : Question, statistique ou constat percutant
-2. **Probleme** (1-2 phrases) : Quel defi cet article adresse-t-il ?
-3. **Promesse** (1-2 phrases) : Ce que le lecteur va apprendre ou gagner
-4. **Mot-cle** : Integrer le mot-cle principal dans les 100 premiers mots
+| Use | Don't Use | Why |
+|-----|-----------|-----|
+| IPTV player | IPTV app / IPTV software | "Player" is the industry standard |
+| playlist | channel list | More universal, covers M3U/XC/Stalker |
+| import a playlist | upload / add a playlist | Technically accurate — data is imported |
+| content source | provider / service | Neutral — avoids endorsing specific services |
+| EPG | TV guide / program guide | Industry standard term |
+| cloud sync | backup / synchronization | Emphasizes the real-time sync feature |
+| streaming | watching / viewing | More accurate for IPTV technology |
+| subscribe | buy / purchase | Subscription model terminology |
+| media player | video player | Broader — covers audio too |
+| live TV | live channels | "Live TV" is more user-friendly |
+| VOD | on-demand / movies | VOD is the standard IPTV term |
+| catch-up / replay | rewind / timeshift | More user-friendly terms |
+
+### Terms to NEVER Use
+
+- "Free IPTV" (implies illegal content)
+- "Free channels" (implies we provide content)
+- "IPTV service" when referring to IPTV One (we are a player, NOT a service)
+- "Cracked" / "modded" / "premium APK" (piracy terms)
+- "Best IPTV service" (we don't recommend services)
+- Any specific IPTV service provider name
+
+### Technical Terms — When to Explain
+
+**Always explain on first use** (in beginner-oriented content):
+- EPG: "EPG (Electronic Program Guide) — a TV listing that shows what's on each channel"
+- M3U: "M3U — a standard playlist format used by most IPTV providers"
+- Xtream Codes: "Xtream Codes API — a popular protocol for connecting to IPTV services"
+- Stalker Portal: "Stalker Portal — a middleware protocol used by some IPTV providers"
+- VOD: "VOD (Video on Demand) — movies and shows you can watch anytime"
+
+**Don't explain** (in technical/advanced content):
+- Assume the reader knows IPTV basics
+- Use terms directly
+
+---
+
+## Text Formatting
+
+### Bold
+- Key concepts, product names on first mention, important features
+- Don't overuse — if everything is bold, nothing stands out
+- "IPTV One supports **4K HDR** playback with **Dolby Vision** on compatible devices"
+
+### Italic
+- Slight emphasis, article/show titles
+- Use sparingly
+
+### ALL CAPS
+- Only for established acronyms (EPG, VOD, HDR, M3U)
+- Never for emphasis in body text
+
+### Code formatting
+- Use `backtick` formatting for:
+  - URLs and file paths
+  - Technical commands
+  - Format specifications (`.m3u`, `.m3u8`)
+
+---
+
+## Content Structure
+
+### Article Introduction (100–200 words)
+
+1. **Hook** (1–2 sentences): Question, statistic, or bold statement
+2. **Problem** (1–2 sentences): What challenge does this article solve?
+3. **Promise** (1–2 sentences): What the reader will learn
+4. **Keyword**: Primary keyword in the first 100 words
 
 ### Sections
 
-- **Longueur minimum** : 150 mots par section
-- **Longueur maximum** : 400 mots (decouper en sous-sections au-dela)
-- **Longueur ideale** : 200 a 300 mots par section principale
-- **Sous-titres** : Tous les 250 a 350 mots
+- **Minimum length**: 150 words per section
+- **Maximum length**: 400 words (split into subsections beyond this)
+- **Ideal length**: 200–300 words per main section
+- **Subheadings**: Every 250–350 words
 
-### Conclusion
+### Conclusion (100–200 words)
 
-**Structure standard** (100 a 200 mots) :
-1. **Resume** (3 a 5 points cles)
-2. **Action** (1-2 phrases) : Que doit faire le lecteur maintenant ?
-3. **CTA** (1-2 phrases) : Oriente vers l'utilisation de PrivAlert
-4. **Ouverture** (optionnel, 1 phrase) : Lien vers un contenu complementaire
-
----
-
-## SEO et meta-donnees
-
-### Titres meta (title)
-
-- 50 a 60 caracteres espaces compris
-- Inclure le mot-cle principal
-- Inclure "| PrivAlert" si la place le permet
-- Pas de ponctuation finale
-
-### Meta descriptions
-
-- 150 a 160 caracteres espaces compris
-- Inclure le mot-cle principal
-- Inclure un appel a l'action
-- Phrase complete, ne doit pas etre coupee
-
-### Slugs d'URL
-
-- Minuscules uniquement
-- Tirets entre les mots
-- **Sans accents** : "ventes-privees" et non "ventes-privees"
-- 3 a 5 mots ideal
-- Pas de mots vides sauf si necessaire pour la comprehension
-- Format : `/blog/mot-cle-principal`
-
-### Texte alternatif des images
-
-- Decrire ce que l'image montre
-- Inclure un mot-cle naturellement si pertinent
-- 125 caracteres maximum
-- Pas de "image de" ou "photo de" (implicite)
+1. **Summary**: 3–5 key takeaways
+2. **Action**: What should the reader do next?
+3. **CTA**: Download IPTV One or explore a feature
+4. **Opening** (optional): Link to related content
 
 ---
 
-## Dates et heures
+## Links
 
-**Format de date dans les articles** :
-- 14 mars 2026
-- Jamais en chiffres dans le texte courant
-- Acceptable dans les tableaux et les listes : 14/03/2026
+### Anchor Text
+- Descriptive and keyword-rich
+- 2–5 words ideally
+- "download IPTV One for Windows"
+- Never "click here" or "learn more" alone
 
-**Durees de ventes** :
-- "du 14 au 18 mars 2026" ou "du 14 au 18 mars"
-- "pendant 4 jours"
-- "jusqu'a dimanche 18 mars"
-
----
-
-## Statistiques et donnees
-
-### Citation des sources
-
-- Toujours citer la source d'une statistique
-- Format : "Selon [Source], [statistique]."
-- Lier vers la source originale quand c'est possible
-- Inclure l'annee : "En 2025, les ventes privees en ligne ont represente..."
-
-### Presentation des nombres
-
-- Arrondir les grands nombres : "plus de 500 marques" et non "517 marques"
-- Symbole % avec espace insecable : 15 %
-- Euro avec espace insecable : 500 EUR
-- Separateur de milliers : espace insecable (10 000)
+### Link Behavior
+- Internal links: Same tab
+- External links: New tab
+- Store links (Google Play, App Store, etc.): New tab
+- Never link to competitor download pages
 
 ---
 
-## References aux plateformes
+## Images & Media
 
-### Mentions des plateformes
+### Screenshots
+- Use actual IPTV One app screenshots
+- Dark mode preferred (matches brand)
+- Include platform indicator when relevant (Android, iOS, Windows)
+- Clean — no personal data visible
 
-Quand on cite les 6 plateformes, utiliser cet ordre standard :
-1. Veepee
-2. Showroomprive
-3. Zalando Prive
-4. Bazarchic
-5. The Bradery
-6. Private Sport Shop
+### Alt Text
+- Describe what the image shows
+- Include keyword naturally if relevant
+- 125 characters maximum
+- "IPTV One channel list with EPG on Android tablet" — good
+- "screenshot" — bad
 
-Il n'est pas necessaire de toutes les citer a chaque fois. Citer celles qui sont pertinentes pour le contexte.
-
-### References aux concurrents (SEO, pas ventes privees)
-
-- On peut nommer directement les concurrents SEO (Dealabs, Ma-Reduc, iGraal, etc.)
-- Rester factuel et equitable
-- Pas de denigrement
-- Se concentrer sur ce qui differencie PrivAlert
-
----
-
-## Checklist avant publication
-
-**Grammaire et mecanique** :
-- [ ] Orthographe verifiee (y compris accents)
-- [ ] Grammaire correcte
-- [ ] Tutoiement partout, aucun vouvoiement
-- [ ] Ponctuation francaise respectee (espaces insecables)
-- [ ] Nombres formates correctement (1 000, 5,50 EUR)
-- [ ] Dates au bon format (14 mars 2026)
-
-**Style** :
-- [ ] Terminologie PrivAlert respectee (vente privee, bon plan, etc.)
-- [ ] Noms de plateformes bien orthographies
-- [ ] PrivAlert bien ecrit (P et A majuscules)
-- [ ] Mise en forme coherente (gras, listes)
-- [ ] Liens descriptifs
-
-**Structure** :
-- [ ] Introduction accrocheuse avec mot-cle
-- [ ] Sections logiques et bien organisees
-- [ ] Hierarchie des titres respectee (H1 > H2 > H3)
-- [ ] Conclusion avec CTA
-- [ ] Longueurs de sections appropriees
-
-**SEO** :
-- [ ] Titre meta 50-60 caracteres avec mot-cle
-- [ ] Meta description 150-160 caracteres avec CTA
-- [ ] Slug sans accents, avec mot-cle
-- [ ] Images avec texte alternatif
+### Format
+- WebP preferred
+- PNG for UI elements with transparency
+- Lazy loading for below-fold images
 
 ---
 
-**Version du guide** : 1.0
-**Derniere mise a jour** : 14 mars 2026
+## Platform References
 
-Ce guide est un document vivant. Le mettre a jour quand la marque PrivAlert evolue.
+### When Listing Platforms
+
+Use this standard order:
+1. Android
+2. Android TV
+3. Fire TV
+4. iOS
+5. macOS
+6. Windows
+7. Linux
+8. Apple TV
+
+### Store Links
+
+Always use the correct store names:
+- Google Play (not Play Store, not Google Play Store)
+- App Store (not Apple Store, not iOS Store)
+- Microsoft Store (not Windows Store)
+- Snap Store (not Snapcraft)
+- Downloader app (for Android TV / Fire TV sideloading) — code **1411180** (https://aftv.news/1411180)
+- Direct APK: https://www.iptv-one.app/downloads/onetv/latest.apk
+
+---
+
+## Language-Specific Notes
+
+### English
+- Use American English spelling as default (optimize, not optimise)
+- Oxford comma: Use it ("M3U, Xtream Codes, and Stalker Portal")
+
+### French
+- Tutoiement (tu) for blog content, vouvoiement (vous) for legal/formal pages
+- French typographic rules: Spaces before : ; ! ?
+- Accents required everywhere, including capitals
+- "IPTV One" never changes
+
+### German
+- Formal "Sie" for all content
+- German compound nouns are acceptable
+- Follow Duden rules for punctuation
+
+### Arabic
+- Right-to-left layout considerations
+- Technical terms stay in English (with Arabic transliteration on first use)
+- Formal Modern Standard Arabic, not dialect
+
+### Swedish / Norwegian / Danish / Finnish
+- These Nordic markets are very high-value per capita
+- Content should feel locally written, not translated
+- Technical English terms are commonly used and accepted
+
+---
+
+## Pre-Publication Checklist
+
+**Grammar & Mechanics**:
+- [ ] Spelling verified (including technical terms)
+- [ ] Grammar correct
+- [ ] Consistent terminology throughout
+- [ ] Numbers formatted correctly
+- [ ] Product names spelled correctly (IPTV One, not IPTV one)
+
+**Style**:
+- [ ] IPTV One terminology followed
+- [ ] Formatting consistent (bold, lists, etc.)
+- [ ] Links are descriptive
+- [ ] No competitor promotion
+- [ ] No illegal content references
+
+**Structure**:
+- [ ] Compelling introduction with keyword
+- [ ] Logical section organization
+- [ ] Heading hierarchy respected (H1 > H2 > H3)
+- [ ] Conclusion with CTA
+- [ ] Appropriate section lengths
+
+**Localization** (for non-English):
+- [ ] Feels native in the target language
+- [ ] Keywords researched for that specific language/market
+- [ ] Cultural references are appropriate
+- [ ] Technical terms handled consistently
+
+---
+
+**Version**: 1.0
+**Last updated**: March 2026
+
+This guide is a living document. Update it when the IPTV One brand evolves.

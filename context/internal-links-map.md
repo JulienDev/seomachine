@@ -1,161 +1,184 @@
-# PrivAlert - Carte des liens internes
+# IPTV One - Internal Links Map
 
-Ce document repertorie les pages cles de PrivAlert qui doivent etre referencees dans les contenus du blog pour un maillage interne strategique. Consulter ce fichier systematiquement lors de la redaction d'articles.
-
----
-
-## Pages principales de l'application
-
-### Accueil
-- **URL** : https://privalert.app/
-- **Quand lier** : Quand on presente PrivAlert de maniere generale, en introduction ou conclusion d'article
-- **Ancres a utiliser** :
-  - "PrivAlert"
-  - "agregateur de ventes privees"
-  - "toutes les ventes privees au meme endroit"
-  - "PrivAlert, l'agregateur gratuit de ventes privees"
-
-### Agenda / Calendrier
-- **URL** : https://privalert.app/agenda
-- **Quand lier** : Quand on parle de planification d'achats, de prochaines ventes, de calendrier des ventes, ou de ventes a venir
-- **Ancres a utiliser** :
-  - "calendrier des ventes privees"
-  - "agenda des ventes"
-  - "agenda des ventes privees"
-  - "voir les prochaines ventes"
-  - "consulte l'agenda des ventes privees"
-  - "planifie tes achats"
-
-### Repertoire des marques
-- **URL** : https://privalert.app/marques
-- **Quand lier** : Quand on parle de marques disponibles en vente privee, de diversite des marques, ou de recherche de marques
-- **Ancres a utiliser** :
-  - "toutes les marques"
-  - "repertoire des marques"
-  - "les marques disponibles en vente privee"
-  - "plus de 500 marques suivies"
-  - "decouvre toutes les marques"
-
-### Pages marques individuelles
-- **URL** : https://privalert.app/marques/[slug]
-- **Quand lier** : **OBLIGATOIRE** - Tout article qui mentionne une marque DOIT lier vers sa page marque
-- **Ancres a utiliser** :
-  - "vente privee [marque]"
-  - "prochaine vente [marque]"
-  - "toutes les ventes [marque]"
-  - "suis [marque] sur PrivAlert"
-
-**Exemples de pages marques** :
-| Marque | URL | Ancres suggerees |
-|--------|-----|-----------------|
-| Nike | /marques/nike | "vente privee Nike", "prochaine vente Nike" |
-| Adidas | /marques/adidas | "vente privee Adidas", "prochaine vente Adidas" |
-| Lacoste | /marques/lacoste | "vente privee Lacoste", "prochaine vente Lacoste" |
-| Levi's | /marques/levis | "vente privee Levi's", "prochaine vente Levi's" |
-| The North Face | /marques/the-north-face | "vente privee The North Face" |
-| Ralph Lauren | /marques/ralph-lauren | "vente privee Ralph Lauren" |
-| Samsung | /marques/samsung | "vente privee Samsung" |
-| Dyson | /marques/dyson | "vente privee Dyson" |
-| Puma | /marques/puma | "vente privee Puma" |
-| New Balance | /marques/new-balance | "vente privee New Balance" |
-| Mango | /marques/mango | "vente privee Mango" |
-| Tommy Hilfiger | /marques/tommy-hilfiger | "vente privee Tommy Hilfiger" |
-| Calvin Klein | /marques/calvin-klein | "vente privee Calvin Klein" |
-| Swarovski | /marques/swarovski | "vente privee Swarovski" |
-| KitchenAid | /marques/kitchenaid | "vente privee KitchenAid" |
-
-### Sites / Plateformes partenaires
-- **URL** : https://privalert.app/sites
-- **Quand lier** : Quand on parle des plateformes de ventes privees de maniere generale, des sites agreges, ou d'un comparatif des plateformes
-- **Ancres a utiliser** :
-  - "sites de ventes privees"
-  - "plateformes partenaires"
-  - "les 6 plateformes de ventes privees"
-  - "decouvre les sites agreges"
-  - "plateformes de ventes privees"
-
-### Blog
-- **URL** : https://privalert.app/blog
-- **Quand lier** : Pour diriger vers d'autres articles, en conclusion, ou dans les CTA vers plus de contenus
-- **Ancres a utiliser** :
-  - "blog PrivAlert"
-  - "guides ventes privees"
-  - "nos guides et conseils"
-  - "tous nos articles"
+This document lists the key pages on iptv-one.app that should be referenced in blog content for strategic internal linking. Consult this file when writing every article.
 
 ---
 
-## Regle obligatoire : liens vers les pages marques
+## Main Site Pages
 
-**Regle absolue** : Tout article qui mentionne une marque par son nom DOIT inclure un lien vers la page `/marques/[slug]` correspondante.
+### Homepage (by language)
+- **URL pattern**: `https://www.iptv-one.app/{lang}`
+- **Examples**: `/en`, `/fr`, `/de`, `/sv`, `/nl`, `/es`, `/no`, `/ar`, `/pt`, `/tr`, `/it`, `/da`, `/fi`
+- **When to link**: When introducing IPTV One, in conclusions, or general product mentions
+- **Anchors to use**:
+  - "IPTV One"
+  - "the best IPTV player"
+  - "premium IPTV player for all devices"
+  - "download IPTV One"
 
-Exemples :
-- Mention de Nike dans un article -> lien vers `/marques/nike` avec l'ancre "vente privee Nike" ou "prochaine vente Nike"
-- Mention de Lacoste dans un comparatif -> lien vers `/marques/lacoste` avec l'ancre "toutes les ventes Lacoste"
-- Mention de Adidas dans un guide sport -> lien vers `/marques/adidas` avec l'ancre "vente privee Adidas"
+### Features Section
+- **URL pattern**: `https://www.iptv-one.app/{lang}#features`
+- **When to link**: When discussing specific features, player capabilities, or comparisons
+- **Anchors to use**:
+  - "IPTV One features"
+  - "see all IPTV One features"
+  - "cloud sync, 4K HDR, and more"
 
-Si la marque est mentionnee plusieurs fois dans le meme article, lier uniquement a la premiere mention significative.
-
----
-
-## Reference rapide par sujet
-
-**Quand on ecrit sur les ventes privees en general**, lier vers :
-- https://privalert.app/ - Presentation generale de PrivAlert
-- https://privalert.app/agenda - Calendrier des ventes en cours
-- https://privalert.app/sites - Les plateformes agregees
-
-**Quand on ecrit un comparatif de plateformes**, lier vers :
-- https://privalert.app/sites - Vue d'ensemble des plateformes
-- https://privalert.app/ - PrivAlert comme solution neutre
-- https://privalert.app/marques - Pour montrer l'etendue des marques couvertes
-
-**Quand on ecrit sur une marque specifique**, lier vers :
-- https://privalert.app/marques/[slug] - Page de la marque (OBLIGATOIRE)
-- https://privalert.app/agenda - Pour voir quand la prochaine vente a lieu
-- https://privalert.app/marques - Pour explorer d'autres marques
-
-**Quand on ecrit un guide saisonnier (Black Friday, Noel, soldes)**, lier vers :
-- https://privalert.app/agenda - Calendrier des ventes de la periode
-- https://privalert.app/ - PrivAlert pour ne rien rater
-- https://privalert.app/marques - Marques les plus cherchees pour l'occasion
-
-**Quand on ecrit un article "bons plans mode"**, lier vers :
-- https://privalert.app/marques - Toutes les marques disponibles
-- https://privalert.app/marques/[slug] - Pages des marques citees (OBLIGATOIRE)
-- https://privalert.app/agenda - Ventes en cours
+### Download Section
+- **URL pattern**: `https://www.iptv-one.app/{lang}#download`
+- **When to link**: In CTAs, conclusions, and anywhere encouraging downloads
+- **Anchors to use**:
+  - "download IPTV One"
+  - "get IPTV One for free"
+  - "start streaming with IPTV One"
+  - "try IPTV One today"
 
 ---
 
-## Articles du blog (a completer au fil des publications)
+## App Store Pages
 
-Les articles publies doivent etre ajoutes ici pour faciliter le maillage interne entre articles.
+### Google Play
+- **URL**: https://play.google.com/store/apps/details?id=app.iptv.one
+- **When to link**: Android-specific content, download CTAs for Android users
+- **Anchors**: "Download on Google Play", "Get IPTV One for Android"
 
-### Articles piliers (a creer en priorite)
+### App Store (iOS / macOS)
+- **URL**: https://apps.apple.com/app/id6751048813
+- **When to link**: iOS/macOS-specific content, Apple device guides
+- **Anchors**: "Download on the App Store", "Get IPTV One for iPhone", "Get IPTV One for Mac"
 
-| Titre prevu | Slug prevu | Mot-cle cible | Lier depuis |
-|-------------|-----------|---------------|-------------|
-| Guide complet des ventes privees en France | /blog/guide-ventes-privees | ventes privees en ligne | Tout article sur les ventes privees |
-| Meilleur site de vente privee : comparatif complet | /blog/meilleur-site-vente-privee | meilleur site vente privee | Tout comparatif |
-| Veepee vs Showroomprive : quel site choisir ? | /blog/veepee-vs-showroomprive | comparatif veepee showroomprive | Articles sur Veepee ou Showroomprive |
-| Soldes vs ventes privees : quoi choisir ? | /blog/soldes-vs-ventes-privees | soldes vs ventes privees | Articles saisonniers, guides debutants |
-| Comment ne plus rater une vente privee | /blog/ne-plus-rater-vente-privee | ne pas rater vente privee | Articles sur les alertes, PrivAlert |
+### Microsoft Store
+- **URL**: https://apps.microsoft.com/store/detail/9nc74zd1dtj0
+- **When to link**: Windows-specific content, PC guides
+- **Anchors**: "Get it from Microsoft Store", "Download IPTV One for Windows"
+
+### Snap Store
+- **URL**: https://snapcraft.io/iptv-one
+- **When to link**: Linux-specific content
+- **Anchors**: "Get it from the Snap Store", "Download IPTV One for Linux"
+
+### Android TV / Fire TV (Sideload via Downloader)
+- **Downloader code**: **1411180** — https://aftv.news/1411180
+- **Direct APK**: https://www.iptv-one.app/downloads/onetv/latest.apk
+- **When to link**: Android TV or Fire TV content, Firestick guides, sideloading instructions
+- **Anchors**: "Install IPTV One on Fire TV", "Install IPTV One on Android TV", "Sideload IPTV One with Downloader code 1411180", "Download the IPTV One APK"
 
 ---
 
-## Bonnes pratiques de maillage interne
+## Blog Pages (to be created and updated as content is published)
 
-1. **Lier naturellement** : Le lien doit apporter de la valeur au lecteur dans le contexte de sa lecture
-2. **Varier les ancres** : Ne pas toujours utiliser la meme ancre pour la meme page cible
-3. **3 a 6 liens par article** : Viser 3 a 6 liens internes strategiques par article
-4. **Liens profonds** : Privilegier les liens vers des pages specifiques (marques, agenda) plutot que la page d'accueil
-5. **Premiers paragraphes** : Les liens places tot dans l'article ont plus de poids SEO
-6. **Maximum 2 liens par paragraphe** : Ne pas surcharger un paragraphe de liens
-7. **Repartition** : Distribuer les liens dans tout l'article, pas les concentrer
-8. **Mettre a jour ce fichier** : Ajouter chaque nouvel article publie pour enrichir le maillage futur
+### Pillar Articles (to create in priority)
+
+| Title | Slug | Target Keyword | Link From |
+|-------|------|---------------|-----------|
+| Best IPTV Player 2026: Complete Guide | `/{lang}/blog/best-iptv-player` | best IPTV player | Every comparison or player-related article |
+| How to Set Up IPTV: Beginner's Guide | `/{lang}/blog/how-to-set-up-iptv` | how to set up IPTV | Every setup or how-to article |
+| IPTV One vs TiviMate: Full Comparison | `/{lang}/blog/iptv-one-vs-tivimate` | IPTV One vs TiviMate | Competitor comparison articles |
+| What is IPTV? Everything You Need to Know | `/{lang}/blog/what-is-iptv` | what is IPTV | Beginner articles, technology content |
+| M3U vs Xtream Codes: Which Format to Choose | `/{lang}/blog/m3u-vs-xtream-codes` | M3U vs Xtream Codes | Technical articles, setup guides |
+
+### Comparison Articles (priority)
+
+| Title | Slug | Link From |
+|-------|------|-----------|
+| Best TiviMate Alternative 2026 | `/{lang}/blog/tivimate-alternative` | Any TiviMate mention |
+| Best IPTV Smarters Alternative | `/{lang}/blog/iptv-smarters-alternative` | Any Smarters mention |
+| Best IPTV Player for Windows | `/{lang}/blog/best-iptv-player-windows` | Windows/PC content |
+| Best IPTV Player for iPhone | `/{lang}/blog/best-iptv-player-iphone` | iOS content |
+| Best IPTV Player for Mac | `/{lang}/blog/best-iptv-player-mac` | macOS content |
+| Best IPTV Player for Firestick | `/{lang}/blog/best-iptv-player-firestick` | Fire TV / Firestick content |
+| Best IPTV Player for Android TV | `/{lang}/blog/best-iptv-player-android-tv` | Android TV content |
+
+### How-To Articles
+
+| Title | Slug | Link From |
+|-------|------|-----------|
+| How to Add M3U Playlist | `/{lang}/blog/how-to-add-m3u-playlist` | Setup articles |
+| How to Set Up EPG | `/{lang}/blog/how-to-set-up-epg` | EPG content |
+| How to Set Up Xtream Codes | `/{lang}/blog/how-to-set-up-xtream-codes` | Format articles |
+| How to Cast IPTV to Chromecast | `/{lang}/blog/iptv-chromecast` | Casting articles |
 
 ---
 
-**Derniere mise a jour** : 14 mars 2026
+## Linking Rules
 
-Ce document doit etre mis a jour a chaque nouvelle page ou article publie sur PrivAlert.
+### Mandatory Links
+
+1. **Every article MUST link to the download section** at least once (via CTA in conclusion)
+2. **Every comparison article MUST link to the pillar "Best IPTV Player" article**
+3. **Every how-to article MUST link to the pillar "How to Set Up IPTV" article**
+4. **Platform-specific articles MUST link to the corresponding store page**
+
+### Link Distribution Per Article
+
+- **1–2 links** to the landing page / download section
+- **2–3 links** to related blog articles (same cluster)
+- **1 link** to the cluster's pillar content
+- **0–1 links** to relevant store pages
+
+### Best Practices
+
+1. **Link naturally**: The link must provide value in context
+2. **Vary anchors**: Don't always use the same anchor for the same target
+3. **3–6 internal links per article**: Aim for this range
+4. **Link depth**: Prefer links to specific sections over the homepage
+5. **Early links have more SEO weight**: Place important links in the first third of the article
+6. **Maximum 2 links per paragraph**: Don't overload any single paragraph
+7. **Spread links**: Distribute throughout the article, don't cluster
+8. **Update this file**: Add every new published article to keep the linking map current
+
+---
+
+## Quick Reference by Topic
+
+**Writing about IPTV in general**: Link to
+- Homepage (`/{lang}`)
+- "What is IPTV" article
+- "Best IPTV Player" pillar
+
+**Writing a comparison article**: Link to
+- "Best IPTV Player" pillar
+- Individual competitor comparison articles
+- Download section
+
+**Writing a setup guide**: Link to
+- "How to Set Up IPTV" pillar
+- Related format articles (M3U, Xtream Codes)
+- Platform-specific store page
+- Download section
+
+**Writing about a specific platform**: Link to
+- Corresponding store page
+- "Best IPTV Player for [Platform]" article
+- Download section
+- Setup guide for that platform
+- For Android TV / Fire TV: mention Downloader code 1411180 and APK link https://www.iptv-one.app/downloads/onetv/latest.apk
+
+**Writing technical content**: Link to
+- "M3U vs Xtream Codes" article
+- "What is IPTV" article
+- Relevant how-to guides
+- Homepage features section
+
+---
+
+## External Links — Acceptable Targets
+
+When external links are needed, these are approved sources:
+
+- **Wikipedia**: For technology definitions (IPTV, M3U, EPG, etc.)
+- **Official platform docs**: developer.android.com, developer.apple.com, learn.microsoft.com
+- **Industry resources**: IETF RFCs, codec specifications
+- **Technology news**: reputable tech publications for industry context
+
+**NEVER link to**:
+- Competitor websites or app download pages
+- IPTV service providers or resellers
+- Piracy-related sites
+- "Free IPTV" lists or forums
+
+---
+
+**Last updated**: March 2026
+
+This document must be updated every time a new page or article is published on iptv-one.app.

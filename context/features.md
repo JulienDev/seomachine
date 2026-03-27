@@ -1,195 +1,182 @@
-# PrivAlert - Fonctionnalites et benefices
+# IPTV One - Features & Benefits
 
-Ce document decrit les fonctionnalites cles de PrivAlert, leurs benefices utilisateur et les angles de conversion associes. A utiliser pour orienter la creation de contenu vers l'adoption de l'application.
-
----
-
-## Propositions de valeur principales
-
-### 1. Agregation de 6 plateformes
-
-- **Fonctionnalite** : PrivAlert regroupe les ventes privees de Veepee, Showroomprive, Zalando Prive, Bazarchic, The Bradery et Private Sport Shop dans une seule interface.
-- **Benefice** : Plus besoin de consulter 6 applications ou sites chaque matin. Tout est centralise, clair, a jour.
-- **Angle de conversion** : "Fini de jongler entre 6 applis chaque matin. Retrouve toutes les ventes privees au meme endroit avec PrivAlert."
-- **Quand utiliser** : Dans tout contenu qui parle de la multiplicite des plateformes, de la difficulte a tout suivre, ou de la presentation generale de PrivAlert.
-- **Preuve sociale** : "6 plateformes agregees en temps reel"
-
-### 2. Alertes push et email
-
-- **Fonctionnalite** : L'utilisateur recoit des notifications push (mobile) ou des emails quand une vente qui l'interesse demarre sur l'une des 6 plateformes.
-- **Benefice** : Ne plus jamais rater une vente privee. Etre averti au bon moment sans avoir a verifier manuellement.
-- **Angle de conversion** : "Active tes alertes et sois le premier informe quand une vente privee de tes marques preferees demarre."
-- **Quand utiliser** : Dans les articles sur les ventes ratees, sur le timing des ventes privees, ou quand on parle d'alertes et notifications.
-- **Preuve sociale** : "Des milliers d'alertes envoyees chaque jour"
-
-### 3. Suivi de marques
-
-- **Fonctionnalite** : L'utilisateur peut suivre ses marques preferees et ne recevoir des alertes que pour celles-ci. Pas de spam, que du pertinent.
-- **Benefice** : Des alertes personnalisees, pas du bruit. Tu ne recois que ce qui t'interesse vraiment.
-- **Angle de conversion** : "Suis Nike, Adidas, Lacoste ou n'importe quelle marque. PrivAlert te previent uniquement quand elles sont en vente privee."
-- **Quand utiliser** : Dans les articles par marque, les guides de personnalisation, quand on parle de marques specifiques.
-- **Preuve sociale** : "500+ marques disponibles a suivre"
-
-### 4. 100 % gratuit, sans publicite
-
-- **Fonctionnalite** : PrivAlert est entierement gratuit. Pas d'abonnement, pas de publicite intrusive, pas de paywall, pas de frais caches.
-- **Benefice** : Acces complet a toutes les fonctionnalites sans rien payer. Pas de publicite qui gache l'experience.
-- **Angle de conversion** : "100 % gratuit. Pas de pub. Pas d'abonnement. Juste les ventes privees qui t'interessent."
-- **Quand utiliser** : Dans les CTAs, les conclusions d'articles, chaque fois qu'on presente PrivAlert. Le gratuit est un argument massif de conversion.
-- **Preuve sociale** : "100 % gratuit, toujours"
-
-### 5. Multi-plateforme (web, iOS, Android)
-
-- **Fonctionnalite** : PrivAlert est accessible en version web (privalert.app), sur iOS (App Store) et sur Android (Google Play). Meme compte, memes donnees partout.
-- **Benefice** : Consulte les ventes privees depuis n'importe quel appareil, a n'importe quel moment.
-- **Angle de conversion** : "Sur ton telephone, ta tablette ou ton ordinateur. PrivAlert te suit partout."
-- **Quand utiliser** : Quand on parle d'accessibilite, de consultation en mobilite, ou dans les articles techniques.
-- **Preuve sociale** : "Disponible sur web, iOS et Android"
-
-### 6. Vue agenda / calendrier
-
-- **Fonctionnalite** : PrivAlert propose une vue agenda qui affiche toutes les ventes privees a venir, classees par date. Permet de voir d'un coup d'oeil ce qui arrive cette semaine.
-- **Benefice** : Planifier ses achats a l'avance. Savoir quand les ventes de ses marques preferees vont avoir lieu pour ne pas les rater.
-- **Angle de conversion** : "Consulte le calendrier des ventes privees et planifie tes achats a l'avance. Plus besoin d'attendre les newsletters."
-- **Quand utiliser** : Dans les articles sur la planification d'achats, les guides saisonniers, les contenus "calendrier des ventes privees".
-- **Preuve sociale** : "Des dizaines de ventes a venir affichees chaque semaine"
-
-### 7. Donnees en temps reel
-
-- **Fonctionnalite** : Les ventes affichees sur PrivAlert sont mises a jour en temps reel. Des qu'une vente demarre ou se termine sur l'une des 6 plateformes, PrivAlert le reflète immediatement.
-- **Benefice** : Toujours a jour, jamais de vente expirée affichee. L'information est fiable et fraiche.
-- **Angle de conversion** : "Des donnees en temps reel. Quand une vente Nike demarre sur Veepee a 7h du matin, tu le vois sur PrivAlert dans la minute."
-- **Quand utiliser** : Quand on parle de fiabilite, de fraicheur de l'information, dans les comparatifs avec d'autres sources d'info.
-- **Preuve sociale** : "Mis a jour en temps reel, 24h/24"
+This document describes IPTV One's key features, their user benefits, and conversion angles. Use this to orient content creation toward app downloads and subscriptions.
 
 ---
 
-## Fonctionnalites techniques
+## Core Value Propositions
 
-### Agregation et donnees
-- **Scraping multi-plateforme** : Collecte automatique des ventes sur 6 sites
-- **Mise a jour temps reel** : Les ventes sont detectees des leur ouverture
-- **Donnees enrichies** : Nom de la vente, marque, plateforme, dates de debut et fin, categorie
-- **Historique des ventes** : Retrouver les ventes passees d'une marque pour estimer la prochaine
+### 1. Multi-Platform with Cloud Sync
 
-### Personnalisation
-- **Suivi de marques** : Ajouter/retirer des marques suivies a tout moment
-- **Alertes personnalisees** : Choisir le type d'alerte (push, email) et les marques concernees
-- **Preferences de categories** : Mode, sport, maison, tech, etc.
+- **Feature**: IPTV One is available on Android, Android TV, Fire TV, iOS, macOS, Windows, Linux, and Apple TV. One account syncs everything across all devices — favorites, watch history, playback position, playlists, and settings. On Android TV and Fire TV, install via the Downloader app with code **1411180** or download the APK directly from https://www.iptv-one.app/downloads/onetv/latest.apk.
+- **Benefit**: Watch on any device without losing your place. Start a movie on your phone, continue on your TV. Your IPTV setup follows you everywhere.
+- **Conversion angle**: "One account. All your devices. Download IPTV One on Android, Android TV, Fire TV, iOS, Windows, macOS, or Linux — your favorites and watch history sync automatically."
+- **When to use**: In any content about multi-device setups, platform choice, or comparing IPTV players (cloud sync is our strongest differentiator).
+- **Proof**: "Available on 8 platforms with real-time cloud sync"
 
-### Interface
-- **Vue liste** : Toutes les ventes en cours, filtrees et triees
-- **Vue agenda** : Calendrier des ventes a venir
-- **Recherche** : Trouver une marque ou une vente specifique
-- **Filtres** : Par plateforme, par categorie, par date
+### 2. Multi-Format Playlist Support
 
-### Plateformes integrees
-- Veepee
-- Showroomprive
-- Zalando Prive
-- Bazarchic
-- The Bradery
-- Private Sport Shop
+- **Feature**: Import playlists via M3U/M3U8 URLs or files, Xtream Codes API, or Stalker Portal. Automatic parsing, channel grouping, and EPG matching.
+- **Benefit**: No matter what format your IPTV provider uses, IPTV One supports it. Import in seconds, watch immediately.
+- **Conversion angle**: "M3U, Xtream Codes, or Stalker Portal — IPTV One supports them all. Add your playlist and start watching in under a minute."
+- **When to use**: In technical guides, setup tutorials, format comparison articles.
+- **Proof**: "3 major playlist formats supported natively"
 
----
+### 3. Premium Playback Engine
 
-## Differenciateurs concurrentiels
+- **Feature**: 4K resolution, HDR10, HDR10+, Dolby Vision support. Hardware-accelerated decoding. Picture-in-Picture (PiP). Playback speed control. Advanced subtitle support with customization.
+- **Benefit**: The best possible video and audio quality. No compromises on playback — IPTV One delivers a cinema-quality experience.
+- **Conversion angle**: "4K HDR with Dolby Vision. Picture-in-Picture. Speed control. IPTV One turns any device into a premium streaming experience."
+- **When to use**: In content about playback quality, player comparisons, home theater setups.
+- **Proof**: "4K HDR + Dolby Vision on supported devices"
 
-### vs. Consulter chaque site individuellement
-- **Gain de temps** : 1 app au lieu de 6
-- **Vision globale** : Voir toutes les ventes d'un coup
-- **Alertes centralisees** : 1 notification au lieu de 6 newsletters
-- **Gratuit** : Aucun cout supplementaire
+### 4. Smart EPG (Electronic Program Guide)
 
-### vs. Dealabs et sites de bons plans
-- **Specialisation** : 100 % dedie aux ventes privees (pas generaliste)
-- **Exhaustivite** : 6 plateformes couvertes systematiquement
-- **Outil** : Une app, pas juste du contenu
-- **Neutralite** : Pas d'affiliation, pas de deals sponsorises
+- **Feature**: Advanced EPG with automatic channel matching, multi-day program listings, and TMDb metadata enrichment for movies and series.
+- **Benefit**: Know what's on, what's coming, and never miss a show. Rich metadata with posters, descriptions, and ratings make browsing enjoyable.
+- **Proof**: "Automatic EPG matching with TMDb enrichment"
+- **Conversion angle**: "A real TV guide for your IPTV. Browse what's on now, tonight, and this week — enriched with movie posters and descriptions from TMDb."
+- **When to use**: In content about EPG, program guides, content discovery.
 
-### vs. Newsletters des plateformes
-- **Tout au meme endroit** : Pas besoin de fouiller dans ses emails
-- **Temps reel** : Plus rapide qu'une newsletter
-- **Personnalisable** : Seulement les marques qui t'interessent
-- **Pas de spam** : Que du pertinent
+### 5. VOD & Series Support
 
----
+- **Feature**: Full VOD (Video on Demand) library browsing with categories, search, and TMDb metadata. Series with season/episode navigation. Watch history and resume playback.
+- **Benefit**: Not just live TV — IPTV One is a complete media center for on-demand content too.
+- **Conversion angle**: "Live TV, movies, and series — all in one app. Browse your VOD library with rich metadata, track what you've watched, and pick up where you left off."
+- **When to use**: In content about VOD, media centers, or comprehensive IPTV experiences.
 
-## Segments utilisateurs et besoins
+### 6. Content Organization
 
-### Chasseur de bons plans
-- Veut voir toutes les ventes en un clic
-- Compare les offres entre plateformes
-- Cherche les meilleures reductions
-- Utilise PrivAlert quotidiennement
+- **Feature**: Favorites, custom groups, content hiding, search, and filters. Organize channels and content exactly how you want.
+- **Benefit**: Your IPTV, your way. Hide channels you don't watch, group favorites, and find anything instantly with search.
+- **Conversion angle**: "Tired of scrolling through hundreds of channels? Organize your content with favorites, custom groups, and smart search."
+- **When to use**: In content about managing large playlists, user experience, or customization.
 
-### Parent presse
-- Peu de temps pour surveiller chaque site
-- Achete pour toute la famille
-- Veut etre alerte uniquement quand ca vaut le coup
-- Utilise surtout les alertes push
+### 7. Chromecast & Screen Casting
 
-### Fashionista
-- Suit des marques specifiques (Nike, Lacoste, Tommy Hilfiger, etc.)
-- Veut etre le premier a acheter (stock limite)
-- Consulte regulierement l'agenda
-- Utilise surtout le suivi de marques
+- **Feature**: Cast content to Chromecast and compatible devices. Watch on the big screen from your phone or tablet.
+- **Benefit**: Easy big-screen viewing without dedicated hardware on every TV.
+- **Conversion angle**: "Cast your IPTV to any Chromecast with one tap. Phone to big screen, instantly."
+- **When to use**: In content about home setups, casting, or watching on TV.
 
-### Sportif
-- Cherche du materiel et des vetements de sport de marque
-- Private Sport Shop est sa plateforme preferee mais il aime voir aussi les autres
-- Suis des marques sport (Nike, Adidas, Puma, New Balance, The North Face)
-- Achats occasionnels mais importants
+### 8. Offline Viewing
 
----
+- **Feature**: Download content for offline playback. Watch without an internet connection — on planes, trains, or areas with poor connectivity.
+- **Benefit**: Your IPTV content available even without internet. Perfect for travel.
+- **Conversion angle**: "Download movies and shows for offline viewing. Your IPTV goes wherever you go — even without Wi-Fi."
+- **When to use**: In content about travel, offline access, or data-saving.
 
-## Messages de conversion
+### 9. Live TV Replay
 
-### CTAs principaux
-- "Voir les ventes en cours" -> Lien vers privalert.app
-- "Activer mes alertes" -> Lien vers l'inscription / activation des alertes
-- "Decouvrir les ventes [marque]" -> Lien vers la page marque
-- "Consulter l'agenda" -> Lien vers privalert.app/agenda
-- "Suivre [marque]" -> Lien vers la page marque avec CTA suivi
+- **Feature**: Replay/catch-up for live TV channels (when supported by the source). Rewind live content you've missed.
+- **Benefit**: Missed the start of a show? Rewind live TV and watch from the beginning.
+- **Conversion angle**: "Missed the start? IPTV One lets you rewind live TV with catch-up replay."
+- **When to use**: In content about live TV features or catch-up.
 
-### Resolution des objections
+### 10. Privacy & Security
 
-**"C'est quoi l'arnaque si c'est gratuit ?"**
--> "PrivAlert est un projet independant. Pas de publicite, pas d'affiliation. Le service est gratuit et le restera."
+- **Feature**: IPTV One collects minimal user data. We don't provide, host, or index any content. No ads in the app. No tracking. Users control their own sources.
+- **Benefit**: Your data stays private. Your playlists are yours. No third-party tracking or invasive ads.
+- **Conversion angle**: "No ads. No tracking. No content surveillance. IPTV One respects your privacy — we're a player, not a service."
+- **When to use**: In content about privacy, data security, or app trustworthiness.
 
-**"Ca a l'air complique"**
--> "C'est plus simple que de consulter 6 sites chaque matin. Tu ouvres PrivAlert, tu vois tout. En 30 secondes."
+### 11. 28 Languages
 
-**"J'ai deja Veepee et Showroomprive sur mon telephone"**
--> "Justement. PrivAlert ne remplace pas ces applis. Il te montre toutes les ventes des 6 sites au meme endroit pour que tu saches ou regarder."
+- **Feature**: Full interface localization in 28 languages including English, French, German, Spanish, Portuguese, Arabic, Swedish, Dutch, Norwegian, Danish, Finnish, Turkish, Italian, and more.
+- **Benefit**: Use IPTV One in your native language, no matter where you are.
+- **Conversion angle**: "Available in 28 languages. IPTV One speaks your language."
+- **When to use**: In content targeting non-English markets or about accessibility.
 
-**"Je vais recevoir du spam"**
--> "Tu choisis les marques que tu suis. Tu ne recois des alertes que pour celles-ci. Pas de newsletter quotidienne, pas de spam."
+### 12. Performance
 
-**"Les donnees sont-elles fiables ?"**
--> "Les ventes sont mises a jour en temps reel. Des qu'une vente demarre ou se termine, PrivAlert le reflète."
-
-### Preuves sociales
-- "6 plateformes agregees"
-- "500+ marques suivies"
-- "100 % gratuit"
-- "Mis a jour en temps reel"
-- "Disponible sur web, iOS et Android"
+- **Feature**: Lightweight, fast, responsive interface. Optimized for each platform. Elegant dark mode. Intuitive navigation.
+- **Benefit**: No lag, no bloat, no crashes. Just a smooth, beautiful streaming experience.
+- **Conversion angle**: "Fast, fluid, and beautiful. IPTV One's dark-themed interface is designed for hours of comfortable viewing."
+- **When to use**: In content about app performance, UX, or player comparisons.
 
 ---
 
-## Regles de creation de contenu
+## Platform Availability
 
-Quand on ecrit sur les fonctionnalites de PrivAlert :
-
-1. **Benefice avant fonctionnalite** : Ne pas dire "PrivAlert agrege 6 plateformes". Dire "Fini de checker 6 applis chaque matin. PrivAlert te montre tout au meme endroit."
-2. **Exemples concrets** : Illustrer avec des marques et des situations reelles. "Imagine : une vente Nike sur Veepee, une Adidas sur Showroomprive et une Puma sur The Bradery, le meme jour. Avec PrivAlert, tu vois les trois."
-3. **Preuves** : Inclure au moins un chiffre ou une preuve sociale par article.
-4. **Objections** : Anticiper les questions et y repondre naturellement dans le contenu.
-5. **CTAs naturels** : Integrer les CTAs dans le flux du texte, pas en blocs isoles. "Pour ne plus rater ces ventes, consulte l'agenda des ventes privees sur PrivAlert."
-6. **Gratuite** : Mentionner que c'est gratuit au moins une fois par article. C'est l'argument de conversion le plus puissant.
-7. **Neutralite** : Presenter PrivAlert comme un outil qui complement les plateformes, pas qui les remplace. On n'est pas un concurrent de Veepee.
+| Platform | Store | Link |
+|----------|-------|------|
+| Android | Google Play | https://play.google.com/store/apps/details?id=app.iptv.one |
+| Android TV | Sideload (Downloader app) | Code **1411180** — https://aftv.news/1411180 or APK: https://www.iptv-one.app/downloads/onetv/latest.apk |
+| Fire TV | Sideload (Downloader app) | Code **1411180** — https://aftv.news/1411180 or APK: https://www.iptv-one.app/downloads/onetv/latest.apk |
+| iOS / macOS | App Store | https://apps.apple.com/app/id6751048813 |
+| Windows | Microsoft Store | https://apps.microsoft.com/store/detail/9nc74zd1dtj0 |
+| Linux | Snap Store | https://snapcraft.io/iptv-one |
+| Apple TV | App Store | https://apps.apple.com/app/id6751048813 |
 
 ---
 
-**Derniere mise a jour** : 14 mars 2026
+## Competitive Differentiators
+
+### vs. TiviMate
+- **IPTV One wins on**: Multi-platform (TiviMate is Android/Fire TV only), cloud sync, iOS/macOS/Windows/Linux support, modern interface. IPTV One now also runs on Android TV and Fire TV via sideloading, matching TiviMate's home turf while offering 8 platforms total.
+- **Use in content**: "IPTV One works everywhere TiviMate does — Android TV, Fire TV — plus iOS, macOS, Windows, Linux, and Apple TV, with full cloud sync across all devices."
+
+### vs. IPTV Smarters
+- **IPTV One wins on**: Modern UI, playback quality, performance, active development, better EPG
+- **Use in content**: "While some players feel dated, IPTV One delivers a premium, modern interface with 4K HDR support."
+
+### vs. GSE Smart IPTV
+- **IPTV One wins on**: Cloud sync, multi-platform, performance, modern design, active development
+- **Use in content**: "IPTV One combines the best features of legacy players with modern design and cross-device sync."
+
+### vs. OTT Navigator
+- **IPTV One wins on**: iOS/macOS support, design quality, cloud sync, ease of use
+- **Use in content**: "Whether you're on Android, iPhone, Mac, or Windows — IPTV One offers the same premium experience everywhere."
+
+---
+
+## Pricing Model
+
+- **Free tier**: Core playback features, limited playlists
+- **Premium subscription**: Full feature access, unlimited playlists, cloud sync, all platforms
+- **One subscription = all platforms**: Pay once, use everywhere
+
+---
+
+## Conversion Messages
+
+### Primary CTAs
+- "Download IPTV One" → Link to platform-appropriate store
+- "Try IPTV One free" → Emphasize free tier
+- "Get IPTV One on [Platform]" → Platform-specific
+- "Start streaming in seconds" → Action-oriented
+
+### Objection Handling
+
+**"Is it really free?"**
+→ "IPTV One is free to download and try. Premium features are available through an affordable subscription."
+
+**"Does it work on my device?"**
+→ "IPTV One runs on Android, Android TV, Fire TV, iOS, macOS, Windows, Linux, and Apple TV — 8 platforms. If you have a device, we support it. On Fire TV and Android TV, install with Downloader code 1411180 or download the APK directly."
+
+**"Is it legal?"**
+→ "IPTV One is a media player application. It does not provide, host, or distribute any content. You use your own playlist sources."
+
+**"Why should I switch from [competitor]?"**
+→ "IPTV One is the only IPTV player with true cloud sync across all major platforms. Your setup, favorites, and watch history go everywhere with you."
+
+**"What playlist formats work?"**
+→ "M3U/M3U8, Xtream Codes API, and Stalker Portal. The three most popular formats, all supported natively."
+
+---
+
+## Content Creation Rules
+
+When writing about IPTV One features:
+
+1. **Benefit before feature**: Don't say "IPTV One supports M3U". Say "Import any playlist in seconds — IPTV One supports M3U, Xtream Codes, and Stalker Portal."
+2. **Show, don't tell**: Use concrete examples and scenarios, not abstract claims.
+3. **Platform inclusivity**: Mention multi-platform support in every piece of content.
+4. **Include proof points**: At least one specific metric or capability per article.
+5. **Natural CTAs**: Integrate download calls-to-action in the flow of content, not as isolated blocks.
+6. **Subscription mention**: Reference the free tier and premium options naturally, without hard-selling.
+7. **Legal clarity**: Include a brief disclaimer that IPTV One is a player app when context requires it.
+
+---
+
+**Last updated**: March 2026

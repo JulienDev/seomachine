@@ -1,427 +1,425 @@
-# PrivAlert - Directives SEO
+# IPTV One - SEO Guidelines
 
-Ce document definit les bonnes pratiques et exigences SEO pour tout contenu du blog PrivAlert afin de maximiser la visibilite en recherche organique sur le marche francais.
+This document defines SEO best practices for all IPTV One blog content to maximize organic search visibility globally across multiple languages.
 
-## Marche cible
+## Target Markets
 
-PrivAlert cible exclusivement le marche francais (google.fr). Toutes les optimisations SEO doivent etre pensees pour :
-- Des requetes en francais
-- Des habitudes de recherche francaises
-- Des SERP google.fr
-- Un public francophone base en France
+IPTV One targets a global audience. SEO content must be optimized for multiple markets, with priority based on revenue data:
 
----
+### Priority 1 — High Revenue Languages (produce content first)
+1. **French** (FR, BE, CH, CA, African francophone) — ~$145K revenue
+2. **English** (US, UK, CA, AU, IE, global) — ~$125K revenue
+3. **German** (DE, AT, CH) — ~$100K revenue
+4. **Swedish** (SE) — ~$97K revenue
 
-## Longueur des contenus
+### Priority 2 — Strong Revenue Languages
+5. **Dutch** (NL, BE) — ~$55K revenue
+6. **Spanish** (ES, MX, CL, CO, AR) — ~$40K revenue
+7. **Norwegian** (NO) — ~$32K revenue
+8. **Arabic** (SA, UAE, QA, EG, KW) — ~$25K revenue
 
-### Objectifs de nombre de mots
+### Priority 3 — Growth Languages
+9. **Portuguese** (PT, BR) — ~$20K revenue
+10. **Turkish** (TR) — ~$13K revenue
+11. **Italian** (IT) — ~$13K revenue
+12. **Danish** (DK) — ~$9K revenue
+13. **Finnish** (FI) — ~$7K revenue
 
-- **Article de blog standard** : 1 500 a 2 500 mots (cible : 2 000)
-- **Contenu pilier / guide complet** : 2 500 a 4 000 mots maximum
-- **Guide pratique (how-to)** : 1 200 a 2 000 mots
-- **Comparatif** : 1 500 a 2 500 mots
-- **Article d'actualite / saisonnier** : 800 a 1 200 mots
-
-### Regles importantes
-
-- **Maximum pour la plupart des articles** : 2 500 mots
-- **Maximum pour le contenu pilier** : 4 000 mots
-- Si un sujet necessite plus, le decouper en une serie d'articles lies entre eux
-- La concision est une qualite : mieux vaut 1 500 mots utiles que 3 000 mots dilues
-- **Ne jamais ajouter du remplissage** pour atteindre un nombre de mots
+### Remaining Languages
+All other supported languages (Korean, Hindi, Polish, Czech, Romanian, Hungarian, Serbian, etc.) — produce content as resources allow.
 
 ---
 
-## Optimisation des mots-cles
+## Multilingual SEO Strategy
 
-### Recherche de mots-cles
+### URL Structure
 
-Avant de rediger un article :
-1. Identifier le mot-cle principal en francais
-2. Verifier le volume de recherche sur google.fr
-3. Analyser les 10 premiers resultats sur google.fr
-4. Identifier 3 a 5 mots-cles secondaires / associes
-5. Lister les mots-cles LSI (semantiquement proches)
+Blog articles must follow the existing language-based routing:
+```
+https://www.iptv-one.app/{lang}/blog/{slug}
+```
 
-### Densite de mots-cles
+Examples:
+- `https://www.iptv-one.app/en/blog/best-iptv-player`
+- `https://www.iptv-one.app/fr/blog/meilleur-lecteur-iptv`
+- `https://www.iptv-one.app/de/blog/bester-iptv-player`
 
-- **Mot-cle principal** : 1 a 2 % de densite
-  - Exemple : dans un article de 2 000 mots, utiliser le mot-cle 20 a 40 fois
-  - L'integration naturelle est primordiale : ne jamais forcer un mot-cle
-- **Mots-cles secondaires** : 0,5 a 1 % chacun
-- **Mots-cles LSI** : Parsemes naturellement dans le texte
+### Hreflang Tags
 
-### Placement obligatoire du mot-cle principal
+Every blog article must include hreflang tags for all available translations, plus x-default pointing to the English version.
 
-Le mot-cle principal DOIT apparaitre dans :
-- [ ] Le titre H1 (de preference au debut)
-- [ ] Les 100 premiers mots de l'article
-- [ ] Au moins 2 a 3 sous-titres H2
-- [ ] Le dernier paragraphe / la conclusion
-- [ ] Le titre meta (dans les 60 premiers caracteres)
-- [ ] La meta description
-- [ ] Le slug de l'URL
+### Content Localization Rules
 
-### Bonnes pratiques d'integration
-
-- **Langage naturel d'abord** : Ecrire pour les humains, optimiser pour les moteurs
-- **Utiliser des variantes** : Ne pas repeter la meme expression mecaniquement
-  - Exemple : "ventes privees" -> "ventes privees en ligne" -> "meilleures ventes privees" -> "ventes flash"
-- **Formulations interrogatives** : Inclure des variations conversationnelles
-  - "Quelles sont les meilleures ventes privees ?" / "comment profiter des ventes privees"
-- **Mots-cles semantiques** : Utiliser des termes lies pour renforcer l'autorite thematique
-  - Pour "ventes privees" : inclure "reductions", "marques", "destockage", "bons plans", "promotions"
-
-### Bourrage de mots-cles (a eviter)
-
-Mauvais : "Les ventes privees sont importantes. Les ventes privees permettent d'economiser. Notre agregateur de ventes privees regroupe les ventes privees pour les amateurs de ventes privees."
-
-Bon : "Les ventes privees permettent d'acceder a des marques a prix reduits. Avec un agregateur comme PrivAlert, tu retrouves toutes les offres au meme endroit sans avoir a consulter chaque plateforme individuellement."
+1. **Research is GLOBAL, not per-language**: SERP analysis and competitor research are done ONCE (in English). The research findings apply globally since IPTV players and their features are the same worldwide. Do NOT repeat research for each language — it wastes time and produces redundant results.
+2. **Write the master article in English**: The first version of every article is written in English based on the global research.
+3. **Translate naturally, don't re-research**: Other language versions are localizations of the English master. The research is NOT redone, but the writing MUST be native-quality — not word-for-word translation. Each version must read as if it were originally written in that language by a native speaker. Adapt sentence structure, idioms, cultural references, and phrasing to match how people actually write in each language. A German article should sound German, not like translated English. A Swedish article should sound Swedish. If a direct translation sounds awkward, rewrite the sentence entirely to convey the same meaning naturally.
+4. **Localize slugs and keywords**: URL slugs must be in the target language without accents. Research the correct local keyword for the title/H1 (e.g., "meilleur lecteur IPTV" not a direct translation of "best IPTV player"). This keyword check is quick — not a full research cycle.
+5. **One canonical per language**: Each translation is its own canonical URL — do NOT set English as canonical for all languages.
+6. **Create content in priority order**: Start with English, then Priority-1 languages (FR, DE, SV), then expand.
 
 ---
 
-## Structure des contenus
+## Content Length Guidelines
 
-### Hierarchie des titres
+### Word Count Targets
 
-#### H1 (Titre)
-- **Un seul H1 par article**
-- Inclure le mot-cle principal naturellement
-- 60 caracteres maximum (pour l'affichage SERP)
-- Oriente benefice, donne envie de lire
-- En francais, sentence case
+- **Standard blog article**: 1,500–2,500 words (target: 2,000)
+- **Pillar content / comprehensive guide**: 2,500–4,000 words maximum
+- **How-to guide / tutorial**: 1,200–2,000 words
+- **Comparison article**: 1,500–2,500 words
+- **Feature spotlight**: 800–1,200 words
 
-#### H2 (Sections principales)
-- **4 a 7 sections H2** pour un article standard
-- Au moins **2 a 3 doivent inclure des variantes du mot-cle**
-- Descriptifs et riches en mots-cles
-- Progression logique dans le sujet
-- Le lecteur doit comprendre le plan de l'article en lisant uniquement les H2
+### Important Rules
 
-#### H3 (Sous-sections)
-- Imbriques sous les H2 (ne jamais sauter de H2 a H4)
-- Decoupent les sections complexes en morceaux digestes
-- Inclure des mots-cles quand c'est naturel
+- **Maximum for most articles**: 2,500 words
+- **Maximum for pillar content**: 4,000 words
+- If a topic needs more, split into a series of linked articles
+- Conciseness is a virtue: 1,500 useful words beats 3,000 padded words
+- **Never add filler** to reach a word count
 
-### Structure type d'un article
+---
+
+## Keyword Optimization
+
+### Pre-Writing Research
+
+Before writing any article:
+1. Identify the primary keyword in the target language
+2. Verify search volume using Google Trends or keyword tools
+3. Analyze the top 10 results for that keyword in the target market
+4. Identify 3–5 secondary/related keywords
+5. List LSI (semantically related) keywords
+
+### Keyword Density
+
+- **Primary keyword**: 1–2% density
+  - In a 2,000-word article: use the keyword 20–40 times
+  - Natural integration is paramount — never force a keyword
+- **Secondary keywords**: 0.5–1% each
+- **LSI keywords**: Sprinkled naturally throughout
+
+### Mandatory Primary Keyword Placement
+
+The primary keyword MUST appear in:
+- [ ] H1 title (preferably near the beginning)
+- [ ] First 100 words of the article
+- [ ] At least 2–3 H2 subheadings
+- [ ] Last paragraph / conclusion
+- [ ] Meta title (within the first 60 characters)
+- [ ] Meta description
+- [ ] URL slug
+
+### Natural Integration
+
+- **Write for humans first, optimize for search engines second**
+- **Use variations**: Don't mechanically repeat the same phrase
+  - Example: "IPTV player" → "IPTV app" → "IPTV streaming application" → "TV player"
+- **Include questions**: "What is the best IPTV player?" / "How to set up an IPTV player"
+- **Semantic keywords**: Use related terms to strengthen topical authority
+  - For "IPTV player": include "streaming", "M3U", "EPG", "playlist", "channels", "VOD"
+
+### Keyword Stuffing (AVOID)
+
+Bad: "IPTV One is an IPTV player. This IPTV player for IPTV lets you play IPTV streams. Download this IPTV player now."
+
+Good: "IPTV One is a feature-rich media player designed for IPTV enthusiasts. Import your playlists, browse the EPG, and stream in 4K — all from one beautifully designed app."
+
+---
+
+## Content Structure
+
+### Heading Hierarchy
+
+#### H1 (Title)
+- **One H1 per article**
+- Include the primary keyword naturally
+- 60 characters maximum (for SERP display)
+- Benefit-oriented, compelling
+- Sentence case
+
+#### H2 (Main Sections)
+- **4–7 H2 sections** for a standard article
+- At least **2–3 should include keyword variants**
+- Descriptive and keyword-rich
+- Logical progression through the topic
+- Reading only the H2s should give a clear outline
+
+#### H3 (Subsections)
+- Nested under H2s (never skip from H2 to H4)
+- Break complex sections into digestible chunks
+- Include keywords when natural
+
+### Standard Article Structure
 
 ```markdown
-# [H1 : Titre accrocheur avec mot-cle principal]
+# [H1: Compelling title with primary keyword]
 
-## Introduction (100-200 mots)
-- Accroche : Question ou constat percutant
-- Probleme : Quel defi cet article adresse-t-il ?
-- Promesse : Ce que le lecteur va apprendre
-- Mot-cle dans les 100 premiers mots
+## Introduction (100–200 words)
+- Hook: Question or striking statement
+- Problem: What challenge does this article address?
+- Promise: What the reader will learn
+- Primary keyword within the first 100 words
 
-## [H2 : Section 1 - Inclure variante du mot-cle]
-### [H3 : Sous-section si necessaire]
-- Contenu detaille
-- Exemples concrets (marques, prix, plateformes)
+## [H2: Section 1 — Include keyword variant]
+### [H3: Subsection if needed]
+- Detailed content
+- Concrete examples
 
-## [H2 : Section 2]
-### [H3 : Sous-section si necessaire]
-- Contenu detaille
+## [H2: Section 2]
+### [H3: Subsection if needed]
+- Detailed content
 
-## [H2 : Section 3 - Inclure variante du mot-cle]
-### [H3 : Sous-section si necessaire]
-- Contenu detaille
+## [H2: Section 3 — Include keyword variant]
+- Continue with 4–7 H2 sections total
 
-## [H2 : Section 4]
-[Continuer avec 4 a 7 sections H2 au total]
-
-## Conclusion (100-200 mots)
-- Resume des points cles (3-5 points)
-- Inclure le mot-cle
-- CTA clair oriente vers PrivAlert
-- Prochaines etapes pour le lecteur
+## Conclusion (100–200 words)
+- Summary of key points (3–5 points)
+- Include primary keyword
+- Clear CTA → download IPTV One
+- Next steps for the reader
 ```
 
 ---
 
-## Meta-donnees
+## Meta Elements
 
-### Titre meta
+### Meta Title
 
-**Exigences** :
-- **Longueur** : 50 a 60 caracteres (avec "| PrivAlert" si possible)
-- **Mot-cle principal** : Obligatoire
-- **Accrocheur** : Doit inciter au clic depuis la SERP
-- **Unique** : Different de tous les autres titres du site
-- **En francais** : Toujours
+**Requirements**:
+- **Length**: 50–60 characters (including "| IPTV One" if space allows)
+- **Primary keyword**: Required
+- **Compelling**: Must drive clicks from the SERP
+- **Unique**: Different from every other page on the site
 
-**Formats possibles** :
-- `[Mot-cle principal] : [Benefice/Promesse]`
-- `Comment [Objectif] | PrivAlert`
-- `[Nombre] [Astuces/Etapes] pour [Benefice]`
-- `[Sujet] : Guide complet [Annee] | PrivAlert`
+**Formats**:
+- `[Primary Keyword]: [Benefit/Promise] | IPTV One`
+- `Best [Topic] in [Year] — [Unique Angle]`
+- `[Number] [Tips/Steps] to [Benefit] | IPTV One`
+- `[Topic]: Complete Guide [Year] | IPTV One`
 
-**Exemples** :
-- Bon : "Ventes privees en ligne : guide complet 2026 | PrivAlert"
-- Bon : "Veepee vs Showroomprive : quel site choisir ?"
-- Mauvais : "Astuces shopping" (trop vague, pas de mot-cle)
-- Mauvais : "Le guide ultime et complet de toutes les ventes privees en ligne en France pour 2026" (trop long)
+**Examples**:
+- Good: "Best IPTV Player 2026: Complete Guide | IPTV One"
+- Good: "M3U vs Xtream Codes: Which Playlist Format to Choose?"
+- Bad: "IPTV Tips" (too vague, no keyword)
+- Bad: "The Ultimate Complete Comprehensive Guide to Everything About IPTV Players for Every Device in 2026" (too long)
 
-### Meta description
+### Meta Description
 
-**Exigences** :
-- **Longueur** : 150 a 160 caracteres
-- **Mot-cle principal** : Integre naturellement
-- **Proposition de valeur** : Benefice clair pour le lecteur
-- **Appel a l'action** : Verbe d'action (Decouvre, Compare, Consulte, etc.)
-- **Tutoiement** : Meme dans les metas
-- **Complete** : Ne doit pas etre coupee en milieu de phrase
+**Requirements**:
+- **Length**: 150–160 characters
+- **Primary keyword**: Integrated naturally
+- **Value proposition**: Clear benefit for the reader
+- **Call-to-action**: Action verb (Discover, Compare, Learn, Download)
+- **Complete**: Must not be cut off mid-sentence
 
-**Formule** :
+**Formula**:
 ```
-[Question/Probleme] ? [Solution/Benefice]. [Angle unique]. [CTA].
+[Question/Problem]? [Solution/Benefit]. [Unique angle]. [CTA].
 ```
 
-**Exemples** :
-- Bon : "Tu veux ne plus rater aucune vente privee ? Decouvre comment PrivAlert regroupe 6 plateformes en un seul endroit. Guide complet et gratuit." (152 caracteres)
-- Bon : "Veepee ou Showroomprive ? Compare les deux leaders des ventes privees sur 5 criteres concrets pour choisir le site qui te convient." (137 caracteres)
-- Mauvais : "Article sur les ventes privees avec des informations utiles." (pas de valeur, pas de CTA)
+### URL Slug
 
-### Slug d'URL
+**Requirements**:
+- Include the primary keyword
+- Lowercase only
+- Hyphens between words (no underscores)
+- **No accents**: `meilleur-lecteur-iptv` not `meilleur-lecteur-iptv`
+- Short and descriptive (3–5 words)
+- No stop words unless needed for clarity
+- In the target language
 
-**Exigences** :
-- Inclure le mot-cle principal
-- Minuscules uniquement
-- Tirets entre les mots (pas d'underscores)
-- **Sans accents** : `ventes-privees` et non `ventes-privées`
-- Court et descriptif (3 a 5 mots)
-- Pas de mots vides sauf si necessaire
-
-**Format** : `/blog/[mot-cle-principal]`
-
-**Exemples** :
-- Bon : `/blog/guide-ventes-privees`
-- Bon : `/blog/veepee-vs-showroomprive`
-- Bon : `/blog/vente-privee-nike`
-- Mauvais : `/blog/le-guide-complet-de-toutes-les-ventes-privees-en-ligne-en-france-2026` (trop long)
-- Mauvais : `/blog/article-12345` (pas de mot-cle)
+**Format**: `/{lang}/blog/[keyword-slug]`
 
 ---
 
-## Strategie de liens internes
+## Link Strategy
 
-### Exigences
+### Internal Links
 
-- **Minimum** : 3 liens internes par article
-- **Optimal** : 4 a 6 liens internes
-- **Maximum** : 8 liens internes (sauf article 3 000+ mots)
+**Requirements**:
+- **Minimum**: 3 internal links per article
+- **Optimal**: 4–6 internal links
+- **Maximum**: 8 links (unless 3,000+ word article)
 
-### Types de liens a inclure
+**Types**:
+1. **Landing page** (1–2 links): Link to the IPTV One homepage or download section
+2. **Other blog articles** (2–3 links): Create a strong internal mesh
+3. **Platform store pages** (1 link): Link to relevant store for downloads
 
-#### 1. Contenu pilier (1-2 liens)
-- Lier vers les guides complets sur des sujets connexes
-- Construit l'autorite du cluster thematique
+**Anchor text**:
+- Descriptive and keyword-rich: "download the best IPTV player"
+- Natural in context
+- Never "click here" or "learn more" alone
+- Vary anchors for the same target page
 
-#### 2. Pages de l'application (1-2 liens)
-- Lier vers les pages pertinentes de privalert.app
-- Toujours utiliser les ancres definies dans internal-links-map.md
+### External Links
 
-#### 3. Articles de blog lies (2-3 liens)
-- Lier vers des articles sur des sous-sujets connexes
-- Creer un maillage interne riche
+**Requirements**:
+- **Minimum**: 1–2 external links per article
+- **Optimal**: 2–3 to authoritative sources
 
-#### 4. Pages marques (obligatoire)
-- **Regle absolue** : tout article mentionnant une marque DOIT lier vers `/marques/[slug-de-la-marque]`
-- Exemple : mention de Nike -> lien vers `/marques/nike` avec l'ancre "vente privee Nike"
+**Acceptable sources**:
+- Wikipedia (for definitions)
+- Official platform documentation (Android, iOS, etc.)
+- Technology news sites
+- Industry statistics sources
+- RFC/standard documents for technical articles
 
-### Bonnes pratiques
-
-**Texte d'ancre** :
-- Descriptif et riche en mots-cles : "consulte le calendrier des ventes privees"
-- Naturel dans le flux de la phrase
-- Jamais "clique ici" ou "en savoir plus"
-- Varier les ancres pour une meme page cible
-
-**Placement** :
-- Dans le corps du paragraphe (plus de valeur SEO)
-- Contexte naturel qui apporte de la valeur au lecteur
-- Maximum 2 liens par paragraphe
-- Repartis dans tout l'article, pas concentres
-
-**Reference** :
-- Toujours consulter `context/internal-links-map.md` pour les cibles de liens prioritaires
+**NEVER link to**:
+- Competitor websites or download pages
+- IPTV service providers or resellers
+- Piracy-related websites
+- Sites promoting illegal streaming
 
 ---
 
-## Strategie de liens externes
+## Featured Snippet Optimization
 
-### Exigences
+### Question Snippets
+- Include the question as an H2
+- Answer in 40–60 words immediately after
+- Clear, direct language
 
-- **Minimum** : 1 a 2 liens externes par article
-- **Optimal** : 2 a 3 liens vers des sources d'autorite
-- Les liens vers les plateformes de ventes privees (Veepee, Showroomprive, etc.) comptent comme liens externes
+### List Snippets
+- Use numbered or bulleted lists
+- Concise items (1–2 sentences each)
+- 5–8 items typically
 
-### Sources a privilegier
-
-- Sites officiels des plateformes de ventes privees
-- Etudes de marche sur le e-commerce en France (FEVAD, etc.)
-- Articles de presse sur les ventes privees
-- Sources statistiques (INSEE, etudes sectorielles)
-
-### Liens vers les plateformes
-
-- Lier vers les plateformes de ventes privees quand on les mentionne dans un contexte informatif
-- Pas de liens d'affiliation (PrivAlert est gratuit et neutre)
-- Ouvrir dans un nouvel onglet
+### Table Snippets
+- Platform comparisons
+- Feature matrices
+- Clear headers and organized data
 
 ---
 
-## Optimisation pour les featured snippets
+## CRITICAL: Legal Content Guidelines
 
-### Snippets de type question
+### NEVER write content about:
+- How to watch free TV channels illegally
+- How to find free IPTV playlists or services
+- Specific IPTV service providers or resellers
+- Circumventing geo-restrictions or DRM
+- Piracy, copyright infringement, or illegal streaming
+- "Best free IPTV" lists or recommendations
 
-- Inclure la question comme sous-titre H2
-- Repondre en 40 a 60 mots juste apres
-- Langage clair et direct
+### ALWAYS include when relevant:
+- "IPTV One is a media player application — it does not provide any content"
+- "Users are responsible for their own content sources"
+- "Ensure you use legal IPTV services in your region"
 
-**Exemple** :
-```markdown
-## Qu'est-ce qu'une vente privee ?
+### Safe Content Topics:
+- How to set up IPTV One (using your own playlists)
+- Technical features and capabilities of the player
+- Format explanations (M3U, Xtream Codes, Stalker Portal)
+- Platform comparisons (player vs player, not service vs service)
+- Technology explanations (what is EPG, what is 4K HDR, etc.)
+- Cord-cutting concepts (in general terms)
+- Device setup guides (for using the player on different devices)
+- How to sideload IPTV One on Fire TV / Android TV (Downloader code 1411180, APK download)
 
-Une vente privee est une operation commerciale a duree limitee (2 a 5 jours) proposee par des sites specialises comme Veepee ou Showroomprive. Elle permet d'acheter des produits de marques connues avec des reductions de -30 % a -70 % par rapport au prix public. L'acces est reserve aux membres inscrits sur la plateforme.
+---
+
+## Structured Data / Schema
+
+### SoftwareApplication Schema (every page)
+Already implemented on the landing page. Blog articles should add:
+
+### Article Schema (every blog post)
+```json
+{
+  "@type": "Article",
+  "headline": "Article title",
+  "description": "Meta description",
+  "author": { "@type": "Organization", "name": "IPTV One" },
+  "publisher": { "@type": "Organization", "name": "IPTV One" },
+  "datePublished": "2026-03-16",
+  "dateModified": "2026-03-16"
+}
 ```
 
-### Snippets de type liste
-
-- Utiliser des listes numerotees ou a puces
-- Elements concis (1-2 phrases chacun)
-- 5 a 8 elements typiquement
-
-### Snippets de type tableau
-
-- Comparatifs entre plateformes
-- Tableau avec en-tetes clairs
-- Donnees organisees et faciles a scanner
+### FAQ Schema (when article includes Q&A)
+Include FAQPage schema for articles with question/answer sections.
 
 ---
 
-## Specificites SEO pour le marche francais
+## Image Optimization
 
-### Requetes typiques francaises
+### File Names
+- Descriptive and keyword-rich
+- No accents, lowercase, hyphens
+- Good: `iptv-one-epg-guide-screenshot.webp`
+- Bad: `IMG_12345.jpg`
 
-Les internautes francais formulent leurs requetes differemment :
-- Questions avec "comment" : "comment profiter des ventes privees"
-- Questions avec "quel/quelle" : "quel est le meilleur site de vente privee"
-- Recherches avec "avis" : "veepee avis", "showroomprive avis"
-- Recherches avec annee : "meilleures ventes privees 2026"
-- Recherches locales : "ventes privees en France"
+### Alt Text
+- Describe what the image shows
+- Include a keyword naturally
+- 125 characters maximum
+- Good: "IPTV One EPG showing tonight's program schedule on Android"
+- Bad: "screenshot"
 
-### Concurrence SEO francaise
-
-- Le marche francais est moins concurrentiel que l'anglophone sur les requetes de niche
-- Les requetes longue traine en francais offrent de bonnes opportunites
-- Les contenus comparatifs ("X vs Y", "meilleur site de...") performent bien
-
-### E-E-A-T pour le marche francais
-
-**Experience** :
-- Montrer que PrivAlert suit les ventes privees au quotidien
-- Inclure des exemples concrets de ventes recentes
-
-**Expertise** :
-- Demontrer une connaissance approfondie des 6 plateformes
-- Fournir des conseils precis et actionables
-
-**Autorite** :
-- Citer des sources fiables (FEVAD, etudes de marche)
-- Creer du contenu pilier complet et reference
-
-**Fiabilite** :
-- Etre transparent sur le fonctionnement de PrivAlert
-- Mentionner que le service est gratuit et sans publicite
+### Format & Performance
+- Use WebP format when possible
+- Lazy loading for below-the-fold images
+- Responsive sizes
+- Maximum 200KB per image (compressed)
 
 ---
 
-## Optimisation mobile
+## SEO Checklist Per Article
 
-### Regles mobile-first
-
-- 70 %+ du trafic est mobile en France
-- Paragraphes courts : 2 a 3 phrases maximum
-- Sous-titres tous les 250-300 mots
-- Boutons CTA facilement cliquables
-- Images optimisees (WebP, lazy loading)
-
----
-
-## Optimisation des images
-
-### Noms de fichiers
-
-- Descriptifs et riches en mots-cles
-- Sans accents
-- Bon : `vente-privee-nike-veepee.jpg`
-- Mauvais : `IMG_12345.jpg`
-
-### Texte alternatif
-
-- Decrire ce que l'image montre
-- Inclure un mot-cle naturellement
-- 125 caracteres maximum
-- Bon : "Capture d'ecran de l'agenda des ventes privees sur PrivAlert"
-- Mauvais : "Image"
-
----
-
-## Checklist SEO pour chaque article
-
-### Contenu
-- [ ] 1 500+ mots (ou adapte au type de contenu)
-- [ ] Mot-cle principal identifie
-- [ ] Densite du mot-cle 1-2 %
-- [ ] 3 a 5 mots-cles secondaires integres
-- [ ] Mots-cles LSI parsemes naturellement
-- [ ] Apporte une valeur unique par rapport a la concurrence
-- [ ] Factuellement exact et a jour
+### Content
+- [ ] 1,500+ words (or appropriate for content type)
+- [ ] Primary keyword identified and researched
+- [ ] Keyword density 1–2%
+- [ ] 3–5 secondary keywords integrated
+- [ ] LSI keywords sprinkled naturally
+- [ ] Provides unique value vs competition
+- [ ] Factually accurate and current
+- [ ] NO illegal/piracy content
 
 ### Structure
-- [ ] Un H1 avec mot-cle principal
-- [ ] 4 a 7 sections H2
-- [ ] 2 a 3 H2 incluent des variantes du mot-cle
-- [ ] Hierarchie H1 > H2 > H3 respectee
-- [ ] Mot-cle dans les 100 premiers mots
-- [ ] Mot-cle dans la conclusion
+- [ ] One H1 with primary keyword
+- [ ] 4–7 H2 sections
+- [ ] 2–3 H2s include keyword variants
+- [ ] H1 > H2 > H3 hierarchy respected
+- [ ] Keyword in first 100 words
+- [ ] Keyword in conclusion
 
-### Meta-donnees
-- [ ] Titre meta 50-60 caracteres avec mot-cle
-- [ ] Meta description 150-160 caracteres avec mot-cle et CTA
-- [ ] Slug d'URL avec mot-cle, sans accents
-- [ ] Tous les elements meta sont uniques
+### Meta
+- [ ] Meta title 50–60 chars with keyword
+- [ ] Meta description 150–160 chars with keyword and CTA
+- [ ] URL slug with keyword, no accents, in target language
+- [ ] All meta elements unique
 
-### Liens
-- [ ] 3 a 6 liens internes inclus
-- [ ] Liens internes avec ancres descriptives
-- [ ] 1 a 3 liens externes vers des sources d'autorite
-- [ ] Tous les liens fonctionnent
-- [ ] Toute marque mentionnee est liee a sa page `/marques/[slug]`
+### Links
+- [ ] 3–6 internal links included
+- [ ] Descriptive anchor text
+- [ ] 1–3 external links to authoritative sources
+- [ ] NO links to competitors or IPTV services
+- [ ] All links functional
 
-### Lisibilite
-- [ ] Niveau de lecture accessible (equivalent college/lycee)
-- [ ] Phrases de 12 a 20 mots en moyenne
-- [ ] Paragraphes de 2 a 4 phrases
-- [ ] Sous-titres tous les 250-350 mots
-- [ ] Listes utilisees pour la scannabilite
-- [ ] Voix active predominante
+### Readability
+- [ ] Accessible reading level
+- [ ] Sentences 15–25 words average
+- [ ] Paragraphs 2–4 sentences
+- [ ] Subheadings every 250–350 words
+- [ ] Lists for scannability
+- [ ] Active voice predominant
 
 ### Images
-- [ ] Images pertinentes incluses
-- [ ] Noms de fichiers descriptifs sans accents
-- [ ] Texte alternatif avec mots-cles
-- [ ] Images optimisees pour le web (WebP)
+- [ ] Relevant images included
+- [ ] Descriptive filenames
+- [ ] Alt text with keywords
+- [ ] WebP format, optimized
 
-### Qualite
-- [ ] Pas de fautes d'orthographe ni de grammaire
-- [ ] Factuellement exact
-- [ ] Sources citees
-- [ ] Voix PrivAlert respectee (tutoiement, ton complice)
-- [ ] Apporte une valeur actionnable
-- [ ] CTA clair oriente vers PrivAlert
+### Quality
+- [ ] No spelling or grammar errors
+- [ ] Factually accurate
+- [ ] IPTV One brand voice maintained
+- [ ] Actionable value provided
+- [ ] Clear download CTA
+- [ ] Legal disclaimer included where needed
 
 ---
 
-**A retenir** : Le SEO sert l'utilisateur, pas l'algorithme. Ne jamais sacrifier la qualite, l'exactitude ou l'utilite du contenu pour optimiser un mot-cle. Le meilleur SEO, c'est un contenu exceptionnel qui aide concretement les chasseurs de bons plans.
+**Key principle**: SEO serves the user, not the algorithm. Never sacrifice content quality, accuracy, or usefulness to optimize a keyword. The best SEO is exceptional content that genuinely helps IPTV users find the right player for their needs — which is IPTV One.
